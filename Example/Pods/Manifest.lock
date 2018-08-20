@@ -1,0 +1,23 @@
+PODS:
+  - WVideoPlayer (0.1.8)
+  - WVideoRecoder (0.1.0)
+
+DEPENDENCIES:
+  - WVideoPlayer
+  - WVideoRecoder (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WVideoPlayer
+
+EXTERNAL SOURCES:
+  WVideoRecoder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WVideoPlayer: 6ec39855b4f84cebced238868c48b7ca6d18e30d
+  WVideoRecoder: 048d2bc568866aca409ca4ab410c2e10cde54858
+
+PODFILE CHECKSUM: 9e7d975b87d565c0b0d03454f169c7048314ab0f
+
+COCOAPODS: 1.5.3

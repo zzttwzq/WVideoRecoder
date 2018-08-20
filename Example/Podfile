@@ -1,14 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/zzttwzq/WSpecRepo.git'
+
 use_frameworks!
 
 target 'WVideoRecoder_Example' do
   pod 'WVideoRecoder', :path => '../'
-
-  target 'WVideoRecoder_Tests' do
-    inherit! :search_paths
-
-    pod 'Specta'
-    pod 'Expecta'
-    pod 'FBSnapshotTestCase'
-    pod 'Expecta+Snapshots'
-  end
+  pod 'WVideoPlayer'
 end

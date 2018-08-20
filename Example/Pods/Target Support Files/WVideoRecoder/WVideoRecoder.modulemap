@@ -1,0 +1,6 @@
+framework module WVideoRecoder {
+  umbrella header "WVideoRecoder-umbrella.h"
+
+  export *
+  module * { export * }
+}
