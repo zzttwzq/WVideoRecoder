@@ -40,7 +40,7 @@
 		2863322393D4459317062DBD /* Pods-WVideoRecoder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WVideoRecoder_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WVideoRecoder_Example/Pods-WVideoRecoder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4224B45A7E3827B696BC631A /* Pods_WVideoRecoder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WVideoRecoder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5676EE890A0CB25F8975671C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		579151A72B6FFC1E0227BD54 /* WVideoRecoder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WVideoRecoder.podspec; path = ../WVideoRecoder.podspec; sourceTree = "<group>"; };
+		579151A72B6FFC1E0227BD54 /* WVideoRecoder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WVideoRecoder.podspec; path = ../WVideoRecoder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* WVideoRecoder_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WVideoRecoder_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -295,10 +295,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WVideoRecoder_Example/Pods-WVideoRecoder_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/WVideoPlayer/WVideoPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/WVideoRecoder/WVideoRecoder.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WVideoPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WVideoRecoder.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -168,10 +168,10 @@
 
 
 
-        _currentProgress2 = [[UIProgressView alloc] initWithFrame:CGRectMake(0, self.height-2, self.width, 2)];
-        _currentProgress2.alpha = 0;
-        _currentProgress2.tintColor = [UIColor whiteColor];
-        [self addSubview:_currentProgress2];
+//        _currentProgress2 = [[UIProgressView alloc] initWithFrame:CGRectMake(0, self.height-2, self.width, 2)];
+//        _currentProgress2.alpha = 0;
+//        _currentProgress2.tintColor = [UIColor whiteColor];
+//        [self addSubview:_currentProgress2];
 
 
         //=======当前进度条操作事件
@@ -182,6 +182,11 @@
         [_currentProgress addTarget:self action:@selector(progressChanged) forControlEvents:UIControlEventValueChanged];
         [_currentProgress addTarget:self action:@selector(handleTouchUp:) forControlEvents:UIControlEventTouchUpInside];
         [_currentProgress addTarget:self action:@selector(handleTouchUp:) forControlEvents:UIControlEventTouchUpOutside];
+
+//        [_currentProgress addTarget:self action:@selector(handleTouchUp:) forControlEvents:UIControlEventTouchDragInside];
+//        [_currentProgress addTarget:self action:@selector(handleTouchUp:) forControlEvents:UIControlEventTouchDragOutside];
+
+        _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(hideControl) userInfo:nil repeats:YES];
     }
     return self;
 }
@@ -211,6 +216,7 @@
 - (void) updateTime:(NSString *)currentTime
       currentInterval:(NSTimeInterval)currentInterval;
 {
+//    NSLog(@">>>%f",currentInterval);
     self.currentTime.text = currentTime;
     self.currentProgress.value = currentInterval;
     self.currentProgress2.progress = currentInterval/_totalInterVals;
@@ -224,7 +230,7 @@
  */
 - (void) updateBuffer:(NSTimeInterval)currentInterval;
 {
-    NSLog(@"%f",currentInterval);
+//    NSLog(@"+++%f",currentInterval);
     self.bufferProgress.progress = currentInterval/_totalInterVals;
 }
 
@@ -263,8 +269,8 @@
     }
     else{
 
-        [self cancelTimer];
         [self showOrHideControlBar];
+        [self cancelTimer];
     }
 }
 
@@ -312,6 +318,8 @@
         self.playState == WPlayState_PrepareToPlay ||
         self.playState == WPlayState_Finished) {
 
+        [self cancelTimer];
+        [self showOrHideControlBar];
         self.playState = WPlayState_isPlaying;
     }
     else if (self.playState == WPlayState_isPlaying) {
@@ -319,7 +327,6 @@
         [self cancelTimer];
         self.playState = WPlayState_Paused;
     }
-
 
     if ([self.delegate respondsToSelector:@selector(playStateChanged:control:)]) {
         [self.delegate playStateChanged:self.playState control:self];
@@ -401,7 +408,7 @@
         screenBrightNess = 0;
     }
 
-        //设置屏幕亮度
+    //设置屏幕亮度
     [WVideoPlayControlView setScreenBrightness:screenBrightNess];
         //设置百分比
 //    [self setHintLab:screenBrightNess];
@@ -532,13 +539,6 @@
     if (self.playState == WPlayState_isPlaying ||
         self.playState == WPlayState_Stoped) {
 
-        if (self.playState == WPlayState_isPlaying) {
-            [self showOrHideControlBar];
-        }
-        else{
-            [self cancelTimer];
-        }
-
         //播放按钮
         self.playIMG.image = [UIImage imageNamed:@"btn_video_stop_90x90"];
         self.playIMG.alpha = 1;
@@ -579,7 +579,7 @@
         _viewState = WPlayViewState_FullScreen;
 
         //全屏按钮
-        _fullScreen.image = [UIImage imageNamed:@"video_amplification"];
+        _fullScreen.image = [UIImage imageNamed:@"narrow_btn"];
         _lightControlView.alpha = 0;
         _volumeControlView.alpha = 0;
         _backImage.alpha = 1;
@@ -593,7 +593,7 @@
         _viewState = WPlayViewState_Normalize;
 
         //全屏按钮
-        _fullScreen.image = [UIImage imageNamed:@"narrow_btn"];
+        _fullScreen.image = [UIImage imageNamed:@"video_amplification"];
         _lightControlView.alpha = 1;
         _volumeControlView.alpha = 1;
         if (!_showBackBtn &&
@@ -605,6 +605,17 @@
         self.frame = CGRectMake(0, 0, ScreenHeight, ScreenWidth);
     }
 }
+
+- (void) setShowFullScreenBtn:(BOOL)showFullScreenBtn
+{
+    _showFullScreenBtn = showFullScreenBtn;
+    if (!showFullScreenBtn) {
+
+        [_fullScreen removeFromSuperview];
+        [self reSetFrames];
+    }
+}
+
 
 - (void)dealloc
 {
