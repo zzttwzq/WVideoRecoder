@@ -7,221 +7,376 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00F1E11C66C9BCF8D0A7E7FDE3D7880F /* WVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCECB01517BE173007AF81448B5B7387 /* WVideoManager.m */; };
-		0185B097E4171017AE080493C474EA4D /* WPhotoSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A50EF78E6B5CFC4BB8FB70F2DE580 /* WPhotoSelect.m */; };
-		0A8AD3BDE0ED54622AD51355B0B29A3B /* narrow_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0469EC08A6717C8B68EF041E119F090D /* narrow_btn.png */; };
-		0C9D0BECDDF08FD1AAA7CACC6B4D0457 /* WPhotoPreviewVCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F004418D8AB2B7336CCBD7D6B89271 /* WPhotoPreviewVCViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F6F552A14F20E78344494059CB1046F /* WVideoPlayControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE5CAEF0F8F73CFD3921E0772E5B76A /* WVideoPlayControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FCCBF7CF53EEF9E7404D263D2E85CD3 /* WVideoPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2582568E4FF57ADE369290F2026E61B6 /* WVideoPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1453175D0D120DEB2E8190DF9E8EB70B /* video_amplification@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E48AC67FDD4B44D76E5973748F0058 /* video_amplification@2x.png */; };
-		191B30884ED4A36EBBFEFDD072E54E8C /* 椭圆-1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB4D72F973EE6C84161FCF42F1FDBBA5 /* 椭圆-1.png */; };
-		1B935D37AD854BF551A81E41F8E8D9A5 /* WRecorderService.m in Sources */ = {isa = PBXBuildFile; fileRef = 128879B5F3EBC3BEF6A44D63A1E0247D /* WRecorderService.m */; };
-		1C6A793C87D611327BFA0C82707AE64D /* btn_video_play_90x90@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC85AA31D8EFBDB7E345A98C46A76EA9 /* btn_video_play_90x90@2x.png */; };
-		2F3E1BAC90ECCF9883E987EC69DDCB2D /* WViedoPreviewAndEditVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B866395160E4A17E32FDAF0D711AED02 /* WViedoPreviewAndEditVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30D194F4E72C5C622A955DC177236D06 /* WRecorderService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B17333F548A75F799593EE7CE455E49 /* WRecorderService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		314A42746CFF8BB20AECAA057D464000 /* WVideoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6232D0C7ADCC2A97E41ECFC53081109E /* WVideoHeaderView.m */; };
-		322C678B82D3D07FDB51BEC7B5B2EDE8 /* UIView+WZQView.h in Headers */ = {isa = PBXBuildFile; fileRef = A88BF784AB607D90141981F69A52AC8E /* UIView+WZQView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		327C6FA6768F544DCBD17059E61655A2 /* WRecorderStorageService.m in Sources */ = {isa = PBXBuildFile; fileRef = F257A9ED2981917C1C3746BE9689AFC8 /* WRecorderStorageService.m */; };
-		3AEAF9E05531FFD1AD64716811DA56F9 /* WVideoPreviewLayerListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1BF478CC918719CDD5D811035EF1F /* WVideoPreviewLayerListView.m */; };
-		3C59C087507476CA3A4ED7DA34F7D8A6 /* WVideoPlayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F36099BD1AD7E29E2989791A18D618FF /* WVideoPlayItem.m */; };
-		463B3A994E2BFF1943ABB7F27A5CA12A /* WRecorderDefiniations.h in Headers */ = {isa = PBXBuildFile; fileRef = DB41B7E33A87931B1D921B393EFC1951 /* WRecorderDefiniations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		478D85EBB07CF2FED289A37CA96C1802 /* WRecoderHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A9052C3E41E68222C5BADC588D92FE60 /* WRecoderHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		514DF3DF5276EAAB69FCF981FCDD66CF /* WVideoFilterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CA24731BFA9D002F64D8AB69CD7868 /* WVideoFilterItem.m */; };
-		5245FB4236478C27235867A44D094468 /* narrow_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F08178D51FA2C5A0978909CA77C068D8 /* narrow_btn@2x.png */; };
-		53BB97A5574312ED8D0474B61C8DADA9 /* WRecodeControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7434FD44C355AF79E96CB37F0D873A /* WRecodeControlView.m */; };
-		569BC6322D4E662C241E9AD8A8251641 /* WVideoRecoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A56D7C138622B3482600DA766A5707 /* WVideoRecoder-dummy.m */; };
-		56BF45598BAACAF1D98EBC1009AAE86B /* Pods-WVideoRecoder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AB245E43628DC6A92C1C8A487716F /* Pods-WVideoRecoder_Example-dummy.m */; };
-		589D7087F17A63F13AEEC31FC7A7BC2D /* WPhotoSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A09448444D168CDA695162D87524C1 /* WPhotoSelect.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F986B8EAE9A73752EBEA591A20B3D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		72FE613273D5A30F58E72B20FADF18E8 /* WVideoClickBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = 41CB72A1B1398F98CE2AD9C4D0540EBB /* WVideoClickBtn.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		767EA3B7B291CADE109E22616C31093C /* video_amplification.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FCF1E12775B1E45E56DD776B6A93D /* video_amplification.png */; };
-		79A028B94F4BC9273283ED5BC9B3CB88 /* UIView+WZQView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60315A1DADE97B225C81D38B3FA602A9 /* UIView+WZQView.m */; };
-		79F319B9A401E0C182EB948A35B0591D /* WRecoderVC.h in Headers */ = {isa = PBXBuildFile; fileRef = FD80B25C56201CCC61AEE961A32E2A1F /* WRecoderVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B4409CA10B36D932D25C0D37F6C3BC2 /* btn_video_play_90x90.png in Resources */ = {isa = PBXBuildFile; fileRef = D06ABFC15BACE6B095F1D34F63059A84 /* btn_video_play_90x90.png */; };
-		81BFFAE504F277AC56A3875C2EA42F7A /* WVideoClickBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F490DE279508C2FF9FB9F36000241C47 /* WVideoClickBtn.m */; };
-		893F8D45B0482AC8D8E1BF426BCFCB93 /* Pods-WVideoRecoder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3FA55C23091E1F6AC4E4B231EDB2F0 /* Pods-WVideoRecoder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89DBB3C691100BCE96818439F7DB4F10 /* narrow_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E30D36B8543261E9939B31F3E90EE15 /* narrow_btn@3x.png */; };
-		8B19E0813D124012BFECBDB056FA231F /* left_back_icon_white_60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E9532CE724F99078AB36D13305A1438 /* left_back_icon_white_60x60@2x.png */; };
-		91C8518DD8AD981A2665C8BFDDDBB177 /* WRecorderStorageService.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BF6E4DD66A43D0EE71BD4C68185CF4 /* WRecorderStorageService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95429A74A5ED57590035DA42F89A4887 /* video_amplification@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3088ADF73C7A0CA18354E7B02487F6 /* video_amplification@3x.png */; };
-		98F30B5C26C96E98EB75BCB0A20FA2BB /* btn_play_again_icon_160x80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2FFB2A0651567437B8E948A4079C07 /* btn_play_again_icon_160x80@2x.png */; };
-		993B80B33471468AF03BEFBC6A3661DF /* btn_video_play_90x90@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55964A519A73BFDA646B24EFCB384ABA /* btn_video_play_90x90@3x.png */; };
-		9B3F8BE5FF75FCF0EDFB93874BE1C4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9C05DE44702272C13455FA9D0730128B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9F5331CB36F444EC46787BE1B87EBF4E /* WVideoBottomSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9025B1DF2A96840B47234B9C771EF2B3 /* WVideoBottomSelectView.m */; };
-		A17FEED58C5BD239A3936A72C9E30142 /* WVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F13CB5723CC68575AECEE10EE2205731 /* WVideoPlayer-dummy.m */; };
-		A4A0C0736EF2E60FADE8CB875CF4E481 /* 椭圆-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A894F28EC6790D01226119EA1FB26E4 /* 椭圆-1@2x.png */; };
-		A74452CBA114251745ACE15C3558F4CC /* HVideoRecodeVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0B062E55DACC22AE55AD8B87D33363 /* HVideoRecodeVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8CFB5B569805ACF95B3C9210C48207D /* WVideoPreviewLayerListView.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF08D1ADB7618BA48D36CFD60D1FDD2 /* WVideoPreviewLayerListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9ECD24192ED28A0B96D1559CE0E2090 /* btn_play_again_icon_160x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C9128133BC8FB141ED7E4CCA46459 /* btn_play_again_icon_160x80.png */; };
-		ABCCBC9119F48CCCF79050F1D0D30385 /* btn_play_again_icon_160x80@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8761AFF2D27ABBA52D24CA6FCD3F6D7 /* btn_play_again_icon_160x80@3x.png */; };
-		AEC7F0B84CD8303933292196319D7408 /* WVideoFilterListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 605958F6C8A639E699286C435C44CE0E /* WVideoFilterListView.m */; };
-		AFF6EB5292C0FD3377615E0DE13A0404 /* WVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C1B032F583FAA3376B44C7AEDAFC84 /* WVideoPlayer.m */; };
-		B2754579AB6C5F2B275A9EB537C35308 /* btn_video_stop_90x90@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A184D90819287C0CCAD4EBAC179D39E8 /* btn_video_stop_90x90@2x.png */; };
-		B326EDC2BE03CDE53380E7ABB5F058BC /* HVideoRecodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD691A2873BF7DBEB8D60C9998883B /* HVideoRecodeVC.m */; };
-		B4FEB0686BBDD8B672737767C1B6DF63 /* left_back_icon_white_60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 5577FA3BE5206B38C9782E354455E2FF /* left_back_icon_white_60x60.png */; };
-		B8C486007A6995C21EBD13B755E7ED2D /* WVideoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC126CCCF0B46EBF4B8F50A2766E1B8 /* WVideoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB3445404201C2BA463A6183BC93AA98 /* WVideoFilterItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FBCC90D73871A23FEEC0687E66A01C8 /* WVideoFilterItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEE6B1BB3F8F4EA45717AF08DA0BFAA3 /* WRecoderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0A2E63FF862D31513C85ABC9EC8923 /* WRecoderVC.m */; };
-		C02746045ABC31526D387DDF31C0E2AB /* WRecorderProcessService.m in Sources */ = {isa = PBXBuildFile; fileRef = A2359A7576BF69E71F47AEEB2C221AC0 /* WRecorderProcessService.m */; };
-		C35DE41844DD4482A1E1AB24F9700DA4 /* WRecodeControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AE94FCCC87431ADD5F6748D3272761 /* WRecodeControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3FC92B6FE6C4A2BEEA9C4692DFDBECD /* btn_video_stop_90x90@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0484EE54D5BC24CCE15A18081274F91 /* btn_video_stop_90x90@3x.png */; };
-		CB575FB45F128161C9335C2F00B44519 /* left_back_icon_white_60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A48ABF9AAC2ABF33106DB9FEB7C51214 /* left_back_icon_white_60x60@3x.png */; };
-		D1F674421658F21272869196674C50EA /* WPhotoPreviewVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257066A70C1FD59B2F2540E08C57BE7A /* WPhotoPreviewVCViewController.m */; };
-		D2EE27DC23796C890BFB5F20F59D41AF /* 椭圆-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BF8FCD9D1F9C249C0B0D174970D75 /* 椭圆-1@3x.png */; };
-		D477120D68ADCB199DDD4B87EB6FFB95 /* WVideoPlayControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D1CB193722B268DCEC470EEE4CFA25 /* WVideoPlayControlView.m */; };
-		DB074A176658D72F60A2DF9261E71ACF /* WVideoBottomSelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB3DB06718A17BC489863183DB77D22 /* WVideoBottomSelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDCFC3853120A6D6226ACD5982B21AC7 /* btn_video_stop_90x90.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2D73905641700B4B75A2463133263D /* btn_video_stop_90x90.png */; };
-		E078F9FE7D1F7BD61D987FF67454A9A1 /* WViedoPreviewAndEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7059FF5CFB73F0F14B7CDF9231792F2 /* WViedoPreviewAndEditVC.m */; };
-		E1C611CD1EC6154B4AA62F6B32E73374 /* WRecorderProcessService.h in Headers */ = {isa = PBXBuildFile; fileRef = 85741E1913D0594EB34D01F51704847F /* WRecorderProcessService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB3B701F32938B5C25216D6E89933D92 /* WVideoHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = F755AE974A8059634B3187631C56CA29 /* WVideoHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F726187808653F3417FB4D5E3B524A91 /* WVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E4AE3E519E1C2948662AE33167EC2D /* WVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F77119A598ADEBE7F1E9357D289E64D8 /* WVideoFilterListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6686D0852BF2AB729A1982E11944B666 /* WVideoFilterListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA34A24184783773BAF942933315FADA /* WVideoRecoder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E7840F68EEA34D0AE2BA802C9F221D /* WVideoRecoder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE2723C8E288CCA02564DD34F547CF5F /* WVideoPlayItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C49078C14DA63C3ADD16F39D2141879A /* WVideoPlayItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03007039B754CA8CD814119E630383CA /* left_back_icon_white_60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9A0429B3822ECD51F8F2B8823F503D1 /* left_back_icon_white_60x60@3x.png */; };
+		0496FF2C2A30FD739296CFD880EED80D /* btn_play_again_icon_160x80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B78ED09B97B8588DF6FE7B0BD1F0DBF1 /* btn_play_again_icon_160x80@2x.png */; };
+		09EC6A529A3215A1C2B2C85AF5D6E1B9 /* NSMutableArray+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA7DBFA8419F7CF86BDF2EC98023245 /* NSMutableArray+WHandler.m */; };
+		0B7AAE69AA010D7B87C20D4CE14D4CE0 /* QuickCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 668829F3AD63E4A6F574087943D4EA3C /* QuickCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BC51708F4CDE559410FDB7FD77A9FE4 /* WThreadTool.h in Headers */ = {isa = PBXBuildFile; fileRef = EB742525E3FDC24D731959AC71FA5F55 /* WThreadTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ECEAD88387BEDA069810668153C06A2 /* Pods-WVideoRecoder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3FA55C23091E1F6AC4E4B231EDB2F0 /* Pods-WVideoRecoder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13E1610FBE8BCC8DCE53B8CA794FBBEE /* NSDate+Whandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D1FAB39BD416E04BABE49D7315F010 /* NSDate+Whandler.m */; };
+		15B3282B20436DAA5C6A5C4FC25AD2BD /* WVideoClickBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = 41CB72A1B1398F98CE2AD9C4D0540EBB /* WVideoClickBtn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		175ACA7C6DEA88D2D0D4B8C1D5A2F0B5 /* 椭圆-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5151F80B0C204AD0BA9DD0E625A91D20 /* 椭圆-1@2x.png */; };
+		186ADE570DC50E1B02660EB769E84512 /* WVideoPlayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 73668BFA5D505BFC843399F17D0094CB /* WVideoPlayItem.m */; };
+		1B4B043813015F6E6DB4D848F047FF20 /* WPhotoPreviewVCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F004418D8AB2B7336CCBD7D6B89271 /* WPhotoPreviewVCViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D32CABAACD76474AECF8A990C6755EF /* NSDate+Whandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 56372E99E973D83549AC17FBFFB12A89 /* NSDate+Whandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E5567C2FE6763C963AA2B56E127257F /* WVideoBottomSelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB3DB06718A17BC489863183DB77D22 /* WVideoBottomSelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		212C4277F27AF4F6018936D6057EF370 /* WVideoRecoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A56D7C138622B3482600DA766A5707 /* WVideoRecoder-dummy.m */; };
+		23F60CD8ED8D82BDBFACBED032511608 /* WDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4FBA192EFAD989925D16144CB9D995 /* WDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		240479F44586515CBDA74A425A31FD6F /* WThreadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4176168C6A69AAB5A6E3F4F200892A98 /* WThreadTool.m */; };
+		248D30A9F16740915E61168E461FE9D8 /* UIViewController+BasicHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CCD12A4EC98070F88CD6F23ECCD8A8 /* UIViewController+BasicHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24DAE7281E691B977853BC092C0FB746 /* UIColor+Whandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C801C35E445620CC0C5A51EA2E44D478 /* UIColor+Whandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26AB33E55B94A5EE04ABC08AA2047896 /* WVideoRecoder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E7840F68EEA34D0AE2BA802C9F221D /* WVideoRecoder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289AE539FCD4BFF5716AF67384EAF52A /* NSObject+Whandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B47BCF13D8B6FDB033ECEDE9D09CBDF7 /* NSObject+Whandler.m */; };
+		29B221FEC712897D8E103300F10A46ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A733BB6AE30FE9C947135277988290 /* Foundation.framework */; };
+		2AA13460967B0F8E39D036A7D5D62C24 /* WBasicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 12DCE347FCAC7CA41FE20963AA70C578 /* WBasicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32743BB2FBCE107226D1330FB1668ABB /* WVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 451C582980EDC597115F7143D20D547E /* WVideoPlayer-dummy.m */; };
+		33E465E14105118471AC0E0E77B9A7A8 /* WRecorderService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B17333F548A75F799593EE7CE455E49 /* WRecorderService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33E6CC631E59D90A45F0BF8162DEA90C /* narrow_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D46B9EB3B2B400485ADA9E576EDF706 /* narrow_btn@2x.png */; };
+		36743750DE29EA824102A77DB8D0BB3F /* HVideoRecodeVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0B062E55DACC22AE55AD8B87D33363 /* HVideoRecodeVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A3BC941E32316594C574F63D4EDF2E7 /* narrow_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B2E53A724FDD71888255E9762B6B1 /* narrow_btn.png */; };
+		3EF217EFCF1568F810DADA0F0B838F40 /* UIColor+Whandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F3F6AAF229694501B78D21800380B2 /* UIColor+Whandler.m */; };
+		4034FAEA3118C6BB8D0A7BA7A440DE83 /* btn_video_play_90x90@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 562FBA70E2AECC84FEB808E0F57F3B09 /* btn_video_play_90x90@3x.png */; };
+		46869FC6D9F65B428C555FBA03DE7182 /* WPhotoPreviewVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257066A70C1FD59B2F2540E08C57BE7A /* WPhotoPreviewVCViewController.m */; };
+		476E7DB6929D22067DC8E27DFF70320F /* btn_play_again_icon_160x80@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F5CE30DACD0FE01D07364AC6176A62 /* btn_play_again_icon_160x80@3x.png */; };
+		478CCB5D9867CD6AE1620FA1C5171D78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A733BB6AE30FE9C947135277988290 /* Foundation.framework */; };
+		48C2D08C9E4770BC7A2B658068890F97 /* WPhotoSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A09448444D168CDA695162D87524C1 /* WPhotoSelect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AAD3AFB2762377C1516D841E519E9A6 /* UIViewController+TableHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4840781C9B3F2EACEC775839CF07838F /* UIViewController+TableHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FBCADFF50DA7B49DEDE3B45A2A9BE72 /* NSData+AES256_.h in Headers */ = {isa = PBXBuildFile; fileRef = 632D4BA5BD5ABE0908798C122BD09CC6 /* NSData+AES256_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E388E5E731E299A98B95C5FC73F2CF /* WRecorderStorageService.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BF6E4DD66A43D0EE71BD4C68185CF4 /* WRecorderStorageService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517E20830D9B10E724A71316AC51B1A4 /* WVideoPlayControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4DEF336D90FF53FDAE1DE48D772FAB /* WVideoPlayControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52FC2679987E2C7495E67348CFE8054E /* WRecoderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0A2E63FF862D31513C85ABC9EC8923 /* WRecoderVC.m */; };
+		5360128A1DE2D2BED3A245934B71D91F /* WVideoFilterItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FBCC90D73871A23FEEC0687E66A01C8 /* WVideoFilterItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		540DAB77E6E0062118661CE75BB4AF82 /* WVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AC28036A2588617020DA756B49E53E /* WVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54739D9FF4530F9A4E9D35D9099AD876 /* UIViewController+TableHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 07317236B471AD6263757BAE9BFA5999 /* UIViewController+TableHandler.m */; };
+		578B13AEF27A90FBBB3D1E5CBD6AD475 /* WRecoderHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A9052C3E41E68222C5BADC588D92FE60 /* WRecoderHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DD06ED640DB0533B230ACF781A43174 /* video_amplification@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F7A4D110414D9AC2451C411852E4EB /* video_amplification@3x.png */; };
+		5EE03E8BCD68127A9DEEFC77D3FE64E3 /* NSString+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B09468B1046C7E0E777424711C28E /* NSString+WHandler.m */; };
+		5FEA58CA7D7BC8309D860CF4EE1F9A72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A733BB6AE30FE9C947135277988290 /* Foundation.framework */; };
+		61B4D7666A4B070405ABA61BB9FDE7B1 /* WVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCBF161B8757C81939F5AE61FAE0141 /* WVideoManager.m */; };
+		63C6CF9C774FC15A7DF10A0008340BE6 /* 椭圆-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF933380F6101BB5E361FEB22483F478 /* 椭圆-1@3x.png */; };
+		644C3B24DF8B2C03D5B04AF3220AADA1 /* WViedoPreviewAndEditVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B866395160E4A17E32FDAF0D711AED02 /* WViedoPreviewAndEditVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E8B1170DCA5E7699B98876E461ACC6 /* WBasicLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED1038ACF5FED7B9DDAF017A0E30C6A /* WBasicLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6786B7CE32978CBAFDAB22F38B83B364 /* UIImageView+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1BFED4EBF1239750C5E9F85914F6BA /* UIImageView+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68999C1D1F4C73F79AE209150D382589 /* NSString+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC90CD52F01FF0872031A4FD3D210CC /* NSString+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CA4990822BBCBDC322CF1421D7E483A /* left_back_icon_white_60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7AE3E090B22B3BE9B4C33AE05E62F5 /* left_back_icon_white_60x60.png */; };
+		6F659078678DC643FF4DDA0DB9951A2C /* btn_video_stop_90x90@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5D9F9CD6B58196D6F73005BB8390C /* btn_video_stop_90x90@2x.png */; };
+		73ADDBBC9D86CA61E293250C97300751 /* WRecorderDefiniations.h in Headers */ = {isa = PBXBuildFile; fileRef = DB41B7E33A87931B1D921B393EFC1951 /* WRecorderDefiniations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C535030DBA1214ABF5A0B1893A495C /* UILabel+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CC292788E67AFE61DB627ADB64BB3D1C /* UILabel+WHandler.m */; };
+		74FA1F15BEAD0C918333760E5E828FEA /* WRequestStatueView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA04280EE7598B4FE80D315AAE647A7 /* WRequestStatueView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		773A5901C2569469E0FC0357628825C8 /* NSData+AES256_.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EE78B286477A4C8776185145873756 /* NSData+AES256_.m */; };
+		7A4A45AAB1FDCE34C45DA7FD3C22491C /* btn_video_stop_90x90.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F6BE413CAD39119E3A0A10525F8947B /* btn_video_stop_90x90.png */; };
+		7E286209DCC74F966B63A558F0720ECE /* UIAlertController+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C17D93E202F880388FFFA82622D865A /* UIAlertController+WHandler.m */; };
+		83C939859CA7BD374CA227B6826A36A9 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F56D1DC57375783963EA79AC9FD76F2B /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85B0D9E29F3722EA4F66CCE422033FE1 /* WVideoPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F3A0C832034F3D4B3FCDF858FA8706 /* WVideoPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87C8001F9D45E447B4692E45ADFA53B4 /* btn_video_play_90x90.png in Resources */ = {isa = PBXBuildFile; fileRef = 057C1F17FA07FD0803071B6A94809437 /* btn_video_play_90x90.png */; };
+		9161DD28BA8965EA8E276899C846BFC8 /* WVideoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E3628F2101DEEDA6F640622BEAFD78 /* WVideoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9476D4CFCF4BC925A128C78C42CF7F31 /* WVideoBottomSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9025B1DF2A96840B47234B9C771EF2B3 /* WVideoBottomSelectView.m */; };
+		95DC6689F6F1FFAE552FE52D68109CC6 /* UIViewController+WebHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C65074B1F36816AE913C902B62FCF460 /* UIViewController+WebHandler.m */; };
+		97D2917A2E401B7EEDB61B7839309622 /* NSMutableArray+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D30A7B97BAB5E850B3106957855323C6 /* NSMutableArray+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D77978DC918D3ED422FECB36315BA7 /* WNodataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E7ECC93E706B434FD76B98435DAC37 /* WNodataView.m */; };
+		98EE064D51C1A28B4D4BB9C78A5F67A8 /* NSArray+WHander.h in Headers */ = {isa = PBXBuildFile; fileRef = 9481DB900EB6CB67DA0471658B387EA2 /* NSArray+WHander.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AA7431B5EEAFEEE35F8FC55391F67DD /* video_amplification@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CABAEFC4D7E324C0971258A39D267CB /* video_amplification@2x.png */; };
+		A3C8E9CEFAF0F655EBF754AAB04BD508 /* MicroDefinetion.h in Headers */ = {isa = PBXBuildFile; fileRef = C6540593F0A89EE38A0764FB99847A3A /* MicroDefinetion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3DE5D849D788B570238F78E41D7BABF /* WVideoHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = F755AE974A8059634B3187631C56CA29 /* WVideoHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A461AE724A0643742B07A1346F5F9811 /* WBasicLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A552D39BB9D1C61920D5A6D077456D7 /* WBasicLibrary.framework */; };
+		A51470A532591CDFCB85745FE24AABE8 /* btn_video_play_90x90@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B5AC64ED235525F66F1DFA547626F3 /* btn_video_play_90x90@2x.png */; };
+		A6A33415C7CC2CE3CF165E772230AC83 /* UIView+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C714ACD9C893E48FC09818ABB20166B1 /* UIView+WHandler.m */; };
+		ACD5EDA19F84C35226ED078E49D32BF2 /* NSData+Base64_.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E75326E3BF4C688C74C084BA8090F3B /* NSData+Base64_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3E2ADE82AC89212EE029ABCD41E9F17 /* WMessageAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE5E8BA0F5FCEA6ADC40D90B8615D78 /* WMessageAction.m */; };
+		B40D0ED5B661FBA2E3A1A78299E7B383 /* WBasicLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A552D39BB9D1C61920D5A6D077456D7 /* WBasicLibrary.framework */; };
+		B60C091248A8183C5F5F63757D026851 /* WVideoClickBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F490DE279508C2FF9FB9F36000241C47 /* WVideoClickBtn.m */; };
+		B725BAD58A7D745363779CD24BF7C196 /* NSArray+WHander.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEA9053C1E9B1CBA28611DF950AA4AF /* NSArray+WHander.m */; };
+		B796F7DB45A41C5E703D806ACF4A7A1D /* WVideoPlayItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 09163995C917437EC1446F2153F4FBA8 /* WVideoPlayItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B85B9D8BECBE023621FD9B3810F49164 /* WVideoFilterListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 605958F6C8A639E699286C435C44CE0E /* WVideoFilterListView.m */; };
+		B8A12BB6B4527EB422FD72BA749DD800 /* WVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7E13D150E55732B04CB4B005656386 /* WVideoPlayer.framework */; };
+		BA14044B5287E56C0E86BCCA9ACCA0ED /* video_amplification.png in Resources */ = {isa = PBXBuildFile; fileRef = 54BB30A0C5027EE0881358BFAFFE9FE1 /* video_amplification.png */; };
+		BA8873FF5C1C033B9CAA9839FCF867D7 /* WBasicLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC042942C7E07EC9F008B63E39848F61 /* WBasicLibrary-dummy.m */; };
+		BB57788E430058B7F3789FC40D72E851 /* WRequestStatueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF75E3BEBF60ED509C446AA73B19D81 /* WRequestStatueView.m */; };
+		BD23A6940D31910C1DA5C507F04B9082 /* WVideoPreviewLayerListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1BF478CC918719CDD5D811035EF1F /* WVideoPreviewLayerListView.m */; };
+		BE017A93C0B5B21C6AB18CF5C8F4E415 /* WRecorderProcessService.h in Headers */ = {isa = PBXBuildFile; fileRef = 85741E1913D0594EB34D01F51704847F /* WRecorderProcessService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4CD4637CCC0BB8ABE23FD63C603C8AD /* Pods-WVideoRecoder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AB245E43628DC6A92C1C8A487716F /* Pods-WVideoRecoder_Example-dummy.m */; };
+		C561BCAD7ABAACC0634ECDA48FE77FE5 /* UIImageView+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C41B6FAE5C4B212D3B0F902A75376B05 /* UIImageView+WHandler.m */; };
+		C5B10464D6D1F8358C0386BC8916A6DE /* HVideoRecodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD691A2873BF7DBEB8D60C9998883B /* HVideoRecodeVC.m */; };
+		C9184339C29D5A9BC0825149D2F6CF0F /* WRecorderStorageService.m in Sources */ = {isa = PBXBuildFile; fileRef = F257A9ED2981917C1C3746BE9689AFC8 /* WRecorderStorageService.m */; };
+		D0A400449886C9410A6F75AFFD70833E /* WVideoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6232D0C7ADCC2A97E41ECFC53081109E /* WVideoHeaderView.m */; };
+		D2ECE617A6778FC4C18B414EF0A52471 /* UIAlertController+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E146C6185A667F77FFD2E9F1D1AAF00D /* UIAlertController+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D428492FA5DA54CD67CBE338EFC61DC5 /* WPhotoSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A50EF78E6B5CFC4BB8FB70F2DE580 /* WPhotoSelect.m */; };
+		D42EF709D7764D3FD6FE8C12C12ED914 /* WNodataView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0469656D377E5F4799AD4F77654207 /* WNodataView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46F0FC47AE91E17D38E714CB8169050 /* WRecorderProcessService.m in Sources */ = {isa = PBXBuildFile; fileRef = A2359A7576BF69E71F47AEEB2C221AC0 /* WRecorderProcessService.m */; };
+		D4FB1C9152446D8FEE9831991032F751 /* btn_video_stop_90x90@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10F889999724CFBDD7414C3E2A3A7C5D /* btn_video_stop_90x90@3x.png */; };
+		D6AAA3A7B7BDCAA5649B610A48354E6E /* UIView+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C58DB2EB823AD049D3B8E5F93C1307 /* UIView+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A8AD835078BE1514C66502AE5BCF3C /* WDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42A1A0D3608D9CECA565F46EB7A8E /* WDevice.m */; };
+		D902BA8875AD40BA08EC8C6AF9BC7B73 /* WVideoFilterListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6686D0852BF2AB729A1982E11944B666 /* WVideoFilterListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA3623CF41A6FDFD74F154FCF2A02B23 /* UILabel+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C18DB16CB4A8958292F238B4C71ABB55 /* UILabel+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA4B470B330D068C871F0957C8F93302 /* WVideoPreviewLayerListView.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF08D1ADB7618BA48D36CFD60D1FDD2 /* WVideoPreviewLayerListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA8203455FBA357CCFC405CD7712AADA /* WRecorderService.m in Sources */ = {isa = PBXBuildFile; fileRef = 128879B5F3EBC3BEF6A44D63A1E0247D /* WRecorderService.m */; };
+		E2839BE10C0A3EE385AC68D8174E86A6 /* left_back_icon_white_60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23ABC29DBE2AF3AA4CFFE007AB36DA48 /* left_back_icon_white_60x60@2x.png */; };
+		E2D66684A4CDE26A0317884AF16809F4 /* narrow_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70BEF7F4E1F9FAED775D329CCF5F273 /* narrow_btn@3x.png */; };
+		E342C27388539399192FE3B7DA45C1AB /* WVideoFilterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CA24731BFA9D002F64D8AB69CD7868 /* WVideoFilterItem.m */; };
+		E51CC6B3BF7BEFA506DFCAE179D9F222 /* WRecodeControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AE94FCCC87431ADD5F6748D3272761 /* WRecodeControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7725617EBFC32D12087EBD6E9041E94 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA77508F71A5F30101AB66E7E140F1 /* Reachability.m */; };
+		EA0502F6BDC7FC5CF281B85F3F6FCEEF /* btn_play_again_icon_160x80.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B6638BA2163FB3B5156770609D8FFF /* btn_play_again_icon_160x80.png */; };
+		EA6967204079D05FA01179C3543C35B5 /* NSObject+Whandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 737E3582FE9BC99AF4E52AE2F07F9CA9 /* NSObject+Whandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA818B48A934B05DBA4238E643656BC2 /* NSData+Base64_.m in Sources */ = {isa = PBXBuildFile; fileRef = 57959E692122317409AEB03D306A1E57 /* NSData+Base64_.m */; };
+		EA818C6C6D0A9A152514620732CE8605 /* WVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D31E9B24AC5A609ADF8C04A62C38D097 /* WVideoPlayer.m */; };
+		EADBD62A863511BCFEA896C7CC308FDF /* WRecoderVC.h in Headers */ = {isa = PBXBuildFile; fileRef = FD80B25C56201CCC61AEE961A32E2A1F /* WRecoderVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC4FB4C7157E613C7CEAAE139FD8B6F /* UIViewController+WebHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F7CC078C118ED4766E5D51E7123BB3AA /* UIViewController+WebHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBEA3EBFD443BBE058CA1E9CE9527948 /* UIImage+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A64ABCDD13E5ECBBF5F6272D9622A312 /* UIImage+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC3154A34618A0149F5F6D8E2F2DC07F /* WRecodeControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7434FD44C355AF79E96CB37F0D873A /* WRecodeControlView.m */; };
+		EC7D3E0356AF9332E920F8EAB1AE9FC0 /* WVideoPlayControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0206E71D5BBFE532944F9BABFEB295D6 /* WVideoPlayControlView.m */; };
+		ECFE2ED00C051C6DBFA44B979D8CF7A1 /* 椭圆-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B99C7E639608AD8B2F77DF0C1A355EE /* 椭圆-1.png */; };
+		F09F7CCC4701C96D137EE1BF8D26628B /* UIImage+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 393DD1D1255A3307D426984728023D9A /* UIImage+WHandler.m */; };
+		F0B7A2116A3E5DB4D659E5526B5C92A5 /* WMessageAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D49C7B6F47DBD86C1C0748CCD0A9171E /* WMessageAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7CFA9FF2E6F85BAC8FA92B29110F952 /* WViedoPreviewAndEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7059FF5CFB73F0F14B7CDF9231792F2 /* WViedoPreviewAndEditVC.m */; };
+		FAFB2D3234D3571A968F765C2D18A9DF /* UIViewController+BasicHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F447AC41019C7B53C4F710EEFF38DB2 /* UIViewController+BasicHandler.m */; };
+		FF33C4806224CD3191BDE26B739E7BCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A733BB6AE30FE9C947135277988290 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C67E866337A418112CB828B49A23F6D /* PBXContainerItemProxy */ = {
+		25FD076FE25C4967FCBD3040F49B4A13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AC2BF876866B74251752D2B6D532CD36;
+			remoteGlobalIDString = 359A7617E33F5048AFDC126326E50162;
+			remoteInfo = WBasicLibrary;
+		};
+		36D975B74C60C358F09A5255C5CAA4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80881872090019269BE6AD80F354B1C7;
 			remoteInfo = WVideoRecoder;
 		};
-		EE991ADD0175A3021933DE0200F8AF18 /* PBXContainerItemProxy */ = {
+		5AF4519C2914F4F5FBF3583B8DC8AAF1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DEE1886E9AEB0A957564A79D7905C601;
+			remoteGlobalIDString = 63E0A7573A2154AAD7D56CAF5227B473;
 			remoteInfo = WVideoPlayer;
+		};
+		7A2BD31EF4D254F10FDF931F4C7A5BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 359A7617E33F5048AFDC126326E50162;
+			remoteInfo = WBasicLibrary;
+		};
+		B435F4AB817AC04EFE48B9C135CDFBB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E0A7573A2154AAD7D56CAF5227B473;
+			remoteInfo = WVideoPlayer;
+		};
+		DA1DC32EC679F53C2F58A72322B16B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 359A7617E33F5048AFDC126326E50162;
+			remoteInfo = WBasicLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0469EC08A6717C8B68EF041E119F090D /* narrow_btn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = narrow_btn.png; path = WVideoPlayer/Assets/narrow_btn.png; sourceTree = "<group>"; };
-		06577D0EBE0D79FAA2C6C7CDF2C44E41 /* Pods_WVideoRecoder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WVideoRecoder_Example.framework; path = "Pods-WVideoRecoder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A894F28EC6790D01226119EA1FB26E4 /* 椭圆-1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "椭圆-1@2x.png"; path = "WVideoPlayer/Assets/椭圆-1@2x.png"; sourceTree = "<group>"; };
+		00F7A4D110414D9AC2451C411852E4EB /* video_amplification@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video_amplification@3x.png"; path = "WVideoPlayer/Assets/video_amplification@3x.png"; sourceTree = "<group>"; };
+		0206E71D5BBFE532944F9BABFEB295D6 /* WVideoPlayControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoPlayControlView.m; path = WVideoPlayer/Classes/WVideoPlayControlView.m; sourceTree = "<group>"; };
+		057C1F17FA07FD0803071B6A94809437 /* btn_video_play_90x90.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = btn_video_play_90x90.png; path = WVideoPlayer/Assets/btn_video_play_90x90.png; sourceTree = "<group>"; };
+		07317236B471AD6263757BAE9BFA5999 /* UIViewController+TableHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TableHandler.m"; path = "WBasicLibrary/Classes/UIViewController+TableHandler.m"; sourceTree = "<group>"; };
+		09163995C917437EC1446F2153F4FBA8 /* WVideoPlayItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoPlayItem.h; path = WVideoPlayer/Classes/WVideoPlayItem.h; sourceTree = "<group>"; };
 		0E9FAFBE3E4198B9D2BFDC2E90E1C2ED /* WVideoRecoder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WVideoRecoder.xcconfig; sourceTree = "<group>"; };
-		11019E59ADEB7DC62072F836FFC17CD4 /* WVideoPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WVideoPlayer.xcconfig; sourceTree = "<group>"; };
+		10F889999724CFBDD7414C3E2A3A7C5D /* btn_video_stop_90x90@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_video_stop_90x90@3x.png"; path = "WVideoPlayer/Assets/btn_video_stop_90x90@3x.png"; sourceTree = "<group>"; };
 		128879B5F3EBC3BEF6A44D63A1E0247D /* WRecorderService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRecorderService.m; path = WVideoRecoder/Classes/WRecorderService.m; sourceTree = "<group>"; };
+		12DCE347FCAC7CA41FE20963AA70C578 /* WBasicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBasicHeader.h; path = WBasicLibrary/Classes/WBasicHeader.h; sourceTree = "<group>"; };
+		14F5CE30DACD0FE01D07364AC6176A62 /* btn_play_again_icon_160x80@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_play_again_icon_160x80@3x.png"; path = "WVideoPlayer/Assets/btn_play_again_icon_160x80@3x.png"; sourceTree = "<group>"; };
+		19AC28036A2588617020DA756B49E53E /* WVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoPlayer.h; path = WVideoPlayer/Classes/WVideoPlayer.h; sourceTree = "<group>"; };
 		1A0B062E55DACC22AE55AD8B87D33363 /* HVideoRecodeVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HVideoRecodeVC.h; path = WVideoRecoder/Classes/HVideoRecodeVC.h; sourceTree = "<group>"; };
 		1A26F78AF7F4F041AEF4427EA011D2D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1E9532CE724F99078AB36D13305A1438 /* left_back_icon_white_60x60@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "left_back_icon_white_60x60@2x.png"; path = "WVideoPlayer/Assets/left_back_icon_white_60x60@2x.png"; sourceTree = "<group>"; };
+		1A552D39BB9D1C61920D5A6D077456D7 /* WBasicLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WBasicLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B99C7E639608AD8B2F77DF0C1A355EE /* 椭圆-1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "椭圆-1.png"; path = "WVideoPlayer/Assets/椭圆-1.png"; sourceTree = "<group>"; };
+		1C17D93E202F880388FFFA82622D865A /* UIAlertController+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+WHandler.m"; path = "WBasicLibrary/Classes/UIAlertController+WHandler.m"; sourceTree = "<group>"; };
+		1CABAEFC4D7E324C0971258A39D267CB /* video_amplification@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video_amplification@2x.png"; path = "WVideoPlayer/Assets/video_amplification@2x.png"; sourceTree = "<group>"; };
+		23ABC29DBE2AF3AA4CFFE007AB36DA48 /* left_back_icon_white_60x60@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "left_back_icon_white_60x60@2x.png"; path = "WVideoPlayer/Assets/left_back_icon_white_60x60@2x.png"; sourceTree = "<group>"; };
 		257066A70C1FD59B2F2540E08C57BE7A /* WPhotoPreviewVCViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPhotoPreviewVCViewController.m; path = WVideoRecoder/Classes/WPhotoPreviewVCViewController.m; sourceTree = "<group>"; };
-		2582568E4FF57ADE369290F2026E61B6 /* WVideoPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WVideoPlayer-umbrella.h"; sourceTree = "<group>"; };
-		2AE9E2D1EF353BC7761B52B8E6077892 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC42A1A0D3608D9CECA565F46EB7A8E /* WDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDevice.m; path = WBasicLibrary/Classes/WDevice.m; sourceTree = "<group>"; };
 		2DB3DB06718A17BC489863183DB77D22 /* WVideoBottomSelectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoBottomSelectView.h; path = WVideoRecoder/Classes/WVideoBottomSelectView.h; sourceTree = "<group>"; };
+		34A733BB6AE30FE9C947135277988290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35FA6379BDF43E70A3488BA6FE7341F5 /* Pods-WVideoRecoder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WVideoRecoder_Example.release.xcconfig"; sourceTree = "<group>"; };
+		393DD1D1255A3307D426984728023D9A /* UIImage+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+WHandler.m"; path = "WBasicLibrary/Classes/UIImage+WHandler.m"; sourceTree = "<group>"; };
+		39E3628F2101DEEDA6F640622BEAFD78 /* WVideoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoManager.h; path = WVideoPlayer/Classes/WVideoManager.h; sourceTree = "<group>"; };
+		3AA7DBFA8419F7CF86BDF2EC98023245 /* NSMutableArray+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+WHandler.m"; path = "WBasicLibrary/Classes/NSMutableArray+WHandler.m"; sourceTree = "<group>"; };
 		3B17333F548A75F799593EE7CE455E49 /* WRecorderService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRecorderService.h; path = WVideoRecoder/Classes/WRecorderService.h; sourceTree = "<group>"; };
+		3C3B09468B1046C7E0E777424711C28E /* NSString+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+WHandler.m"; path = "WBasicLibrary/Classes/NSString+WHandler.m"; sourceTree = "<group>"; };
+		3CCA77508F71A5F30101AB66E7E140F1 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = WBasicLibrary/Classes/Reachability.m; sourceTree = "<group>"; };
 		3DFD691A2873BF7DBEB8D60C9998883B /* HVideoRecodeVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HVideoRecodeVC.m; path = WVideoRecoder/Classes/HVideoRecodeVC.m; sourceTree = "<group>"; };
-		3F8BF8FCD9D1F9C249C0B0D174970D75 /* 椭圆-1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "椭圆-1@3x.png"; path = "WVideoPlayer/Assets/椭圆-1@3x.png"; sourceTree = "<group>"; };
+		412A2A941F5901176B6EC8E40F92FC92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4176168C6A69AAB5A6E3F4F200892A98 /* WThreadTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WThreadTool.m; path = WBasicLibrary/Classes/WThreadTool.m; sourceTree = "<group>"; };
 		41CB72A1B1398F98CE2AD9C4D0540EBB /* WVideoClickBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoClickBtn.h; path = WVideoRecoder/Classes/WVideoClickBtn.h; sourceTree = "<group>"; };
+		451C582980EDC597115F7143D20D547E /* WVideoPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WVideoPlayer-dummy.m"; sourceTree = "<group>"; };
 		47BF6E4DD66A43D0EE71BD4C68185CF4 /* WRecorderStorageService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRecorderStorageService.h; path = WVideoRecoder/Classes/WRecorderStorageService.h; sourceTree = "<group>"; };
-		4BE5CAEF0F8F73CFD3921E0772E5B76A /* WVideoPlayControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoPlayControlView.h; path = WVideoPlayer/Classes/WVideoPlayControlView.h; sourceTree = "<group>"; };
+		4840781C9B3F2EACEC775839CF07838F /* UIViewController+TableHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TableHandler.h"; path = "WBasicLibrary/Classes/UIViewController+TableHandler.h"; sourceTree = "<group>"; };
+		4B7E13D150E55732B04CB4B005656386 /* WVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F52A23B19C6EE4C00465C74226DAC88 /* WVideoPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WVideoPlayer-prefix.pch"; sourceTree = "<group>"; };
 		4FA1BF478CC918719CDD5D811035EF1F /* WVideoPreviewLayerListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoPreviewLayerListView.m; path = WVideoRecoder/Classes/WVideoPreviewLayerListView.m; sourceTree = "<group>"; };
 		4FBCC90D73871A23FEEC0687E66A01C8 /* WVideoFilterItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoFilterItem.h; path = WVideoRecoder/Classes/WVideoFilterItem.h; sourceTree = "<group>"; };
-		5577FA3BE5206B38C9782E354455E2FF /* left_back_icon_white_60x60.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = left_back_icon_white_60x60.png; path = WVideoPlayer/Assets/left_back_icon_white_60x60.png; sourceTree = "<group>"; };
-		55964A519A73BFDA646B24EFCB384ABA /* btn_video_play_90x90@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_video_play_90x90@3x.png"; path = "WVideoPlayer/Assets/btn_video_play_90x90@3x.png"; sourceTree = "<group>"; };
+		5151F80B0C204AD0BA9DD0E625A91D20 /* 椭圆-1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "椭圆-1@2x.png"; path = "WVideoPlayer/Assets/椭圆-1@2x.png"; sourceTree = "<group>"; };
+		52E5D9F9CD6B58196D6F73005BB8390C /* btn_video_stop_90x90@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_video_stop_90x90@2x.png"; path = "WVideoPlayer/Assets/btn_video_stop_90x90@2x.png"; sourceTree = "<group>"; };
+		54BB30A0C5027EE0881358BFAFFE9FE1 /* video_amplification.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = video_amplification.png; path = WVideoPlayer/Assets/video_amplification.png; sourceTree = "<group>"; };
 		55AFD101B159ECA9E1F9C2F43550056B /* Pods-WVideoRecoder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WVideoRecoder_Example.modulemap"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		562FBA70E2AECC84FEB808E0F57F3B09 /* btn_video_play_90x90@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_video_play_90x90@3x.png"; path = "WVideoPlayer/Assets/btn_video_play_90x90@3x.png"; sourceTree = "<group>"; };
+		56372E99E973D83549AC17FBFFB12A89 /* NSDate+Whandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Whandler.h"; path = "WBasicLibrary/Classes/NSDate+Whandler.h"; sourceTree = "<group>"; };
+		57959E692122317409AEB03D306A1E57 /* NSData+Base64_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64_.m"; path = "WBasicLibrary/Classes/NSData+Base64_.m"; sourceTree = "<group>"; };
+		5C5EF3A9EC26565243788E316C696593 /* WVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WVideoPlayer.framework; path = WVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C60EA743611ED348445D67A25BFEC9E /* Pods-WVideoRecoder_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WVideoRecoder_Example-resources.sh"; sourceTree = "<group>"; };
-		60315A1DADE97B225C81D38B3FA602A9 /* UIView+WZQView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WZQView.m"; path = "WVideoPlayer/Classes/UIView+WZQView.m"; sourceTree = "<group>"; };
+		5EF75E3BEBF60ED509C446AA73B19D81 /* WRequestStatueView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRequestStatueView.m; path = WBasicLibrary/Classes/WRequestStatueView.m; sourceTree = "<group>"; };
+		5F447AC41019C7B53C4F710EEFF38DB2 /* UIViewController+BasicHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BasicHandler.m"; path = "WBasicLibrary/Classes/UIViewController+BasicHandler.m"; sourceTree = "<group>"; };
+		5F6BE413CAD39119E3A0A10525F8947B /* btn_video_stop_90x90.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = btn_video_stop_90x90.png; path = WVideoPlayer/Assets/btn_video_stop_90x90.png; sourceTree = "<group>"; };
 		605958F6C8A639E699286C435C44CE0E /* WVideoFilterListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoFilterListView.m; path = WVideoRecoder/Classes/WVideoFilterListView.m; sourceTree = "<group>"; };
 		6232D0C7ADCC2A97E41ECFC53081109E /* WVideoHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoHeaderView.m; path = WVideoRecoder/Classes/WVideoHeaderView.m; sourceTree = "<group>"; };
+		632D4BA5BD5ABE0908798C122BD09CC6 /* NSData+AES256_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+AES256_.h"; path = "WBasicLibrary/Classes/NSData+AES256_.h"; sourceTree = "<group>"; };
+		64E7ECC93E706B434FD76B98435DAC37 /* WNodataView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WNodataView.m; path = WBasicLibrary/Classes/WNodataView.m; sourceTree = "<group>"; };
 		6686D0852BF2AB729A1982E11944B666 /* WVideoFilterListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoFilterListView.h; path = WVideoRecoder/Classes/WVideoFilterListView.h; sourceTree = "<group>"; };
+		668829F3AD63E4A6F574087943D4EA3C /* QuickCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickCode.h; path = WBasicLibrary/Classes/QuickCode.h; sourceTree = "<group>"; };
+		6C4FBA192EFAD989925D16144CB9D995 /* WDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDevice.h; path = WBasicLibrary/Classes/WDevice.h; sourceTree = "<group>"; };
+		6CA04280EE7598B4FE80D315AAE647A7 /* WRequestStatueView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRequestStatueView.h; path = WBasicLibrary/Classes/WRequestStatueView.h; sourceTree = "<group>"; };
+		6E75326E3BF4C688C74C084BA8090F3B /* NSData+Base64_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64_.h"; path = "WBasicLibrary/Classes/NSData+Base64_.h"; sourceTree = "<group>"; };
 		70F004418D8AB2B7336CCBD7D6B89271 /* WPhotoPreviewVCViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPhotoPreviewVCViewController.h; path = WVideoRecoder/Classes/WPhotoPreviewVCViewController.h; sourceTree = "<group>"; };
 		72AC8A60ABE16CE0F5D83702C1DFD55D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73668BFA5D505BFC843399F17D0094CB /* WVideoPlayItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoPlayItem.m; path = WVideoPlayer/Classes/WVideoPlayItem.m; sourceTree = "<group>"; };
+		737E3582FE9BC99AF4E52AE2F07F9CA9 /* NSObject+Whandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Whandler.h"; path = "WBasicLibrary/Classes/NSObject+Whandler.h"; sourceTree = "<group>"; };
+		7505413EB34C0CB5EB4E203F5B2DC4F5 /* Pods_WVideoRecoder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WVideoRecoder_Example.framework; path = "Pods-WVideoRecoder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AE94FCCC87431ADD5F6748D3272761 /* WRecodeControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRecodeControlView.h; path = WVideoRecoder/Classes/WRecodeControlView.h; sourceTree = "<group>"; };
-		7E30D36B8543261E9939B31F3E90EE15 /* narrow_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "narrow_btn@3x.png"; path = "WVideoPlayer/Assets/narrow_btn@3x.png"; sourceTree = "<group>"; };
+		76EE78B286477A4C8776185145873756 /* NSData+AES256_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+AES256_.m"; path = "WBasicLibrary/Classes/NSData+AES256_.m"; sourceTree = "<group>"; };
+		77B5AC64ED235525F66F1DFA547626F3 /* btn_video_play_90x90@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_video_play_90x90@2x.png"; path = "WVideoPlayer/Assets/btn_video_play_90x90@2x.png"; sourceTree = "<group>"; };
+		78E08AD6E96370F4A1E9D5B4DA4FF793 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C597F8260FA18A460A4C3914CAFC426 /* WVideoPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WVideoPlayer.modulemap; sourceTree = "<group>"; };
+		7DFB0BC989C79BE30ABB00F3FF02649A /* WVideoRecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WVideoRecoder.framework; path = WVideoRecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4DEF336D90FF53FDAE1DE48D772FAB /* WVideoPlayControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoPlayControlView.h; path = WVideoPlayer/Classes/WVideoPlayControlView.h; sourceTree = "<group>"; };
 		7F78FA524867EC1EE470B14374CD8B43 /* Pods-WVideoRecoder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WVideoRecoder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8177A56CCBA6429C883D0FBD80B8C92E /* Pods-WVideoRecoder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WVideoRecoder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		840F0C46EC8A212D28EEAA28B281841E /* Pods-WVideoRecoder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WVideoRecoder_Example-frameworks.sh"; sourceTree = "<group>"; };
 		85741E1913D0594EB34D01F51704847F /* WRecorderProcessService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRecorderProcessService.h; path = WVideoRecoder/Classes/WRecorderProcessService.h; sourceTree = "<group>"; };
-		85E48AC67FDD4B44D76E5973748F0058 /* video_amplification@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video_amplification@2x.png"; path = "WVideoPlayer/Assets/video_amplification@2x.png"; sourceTree = "<group>"; };
-		8BB563584E1D4A6AFD85608780DD08E7 /* WVideoPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WVideoPlayer.modulemap; sourceTree = "<group>"; };
+		85F3F6AAF229694501B78D21800380B2 /* UIColor+Whandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Whandler.m"; path = "WBasicLibrary/Classes/UIColor+Whandler.m"; sourceTree = "<group>"; };
 		9025B1DF2A96840B47234B9C771EF2B3 /* WVideoBottomSelectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoBottomSelectView.m; path = WVideoRecoder/Classes/WVideoBottomSelectView.m; sourceTree = "<group>"; };
+		92F3A0C832034F3D4B3FCDF858FA8706 /* WVideoPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WVideoPlayer-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B0C9128133BC8FB141ED7E4CCA46459 /* btn_play_again_icon_160x80.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = btn_play_again_icon_160x80.png; path = WVideoPlayer/Assets/btn_play_again_icon_160x80.png; sourceTree = "<group>"; };
-		9E2FFB2A0651567437B8E948A4079C07 /* btn_play_again_icon_160x80@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_play_again_icon_160x80@2x.png"; path = "WVideoPlayer/Assets/btn_play_again_icon_160x80@2x.png"; sourceTree = "<group>"; };
-		A184D90819287C0CCAD4EBAC179D39E8 /* btn_video_stop_90x90@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_video_stop_90x90@2x.png"; path = "WVideoPlayer/Assets/btn_video_stop_90x90@2x.png"; sourceTree = "<group>"; };
+		9481DB900EB6CB67DA0471658B387EA2 /* NSArray+WHander.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+WHander.h"; path = "WBasicLibrary/Classes/NSArray+WHander.h"; sourceTree = "<group>"; };
+		9D46B9EB3B2B400485ADA9E576EDF706 /* narrow_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "narrow_btn@2x.png"; path = "WVideoPlayer/Assets/narrow_btn@2x.png"; sourceTree = "<group>"; };
+		9ED1038ACF5FED7B9DDAF017A0E30C6A /* WBasicLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBasicLibrary-umbrella.h"; sourceTree = "<group>"; };
 		A2359A7576BF69E71F47AEEB2C221AC0 /* WRecorderProcessService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRecorderProcessService.m; path = WVideoRecoder/Classes/WRecorderProcessService.m; sourceTree = "<group>"; };
-		A48ABF9AAC2ABF33106DB9FEB7C51214 /* left_back_icon_white_60x60@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "left_back_icon_white_60x60@3x.png"; path = "WVideoPlayer/Assets/left_back_icon_white_60x60@3x.png"; sourceTree = "<group>"; };
+		A27B2E53A724FDD71888255E9762B6B1 /* narrow_btn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = narrow_btn.png; path = WVideoPlayer/Assets/narrow_btn.png; sourceTree = "<group>"; };
 		A517A24077370727080EFC1EAC0450AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64ABCDD13E5ECBBF5F6272D9622A312 /* UIImage+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+WHandler.h"; path = "WBasicLibrary/Classes/UIImage+WHandler.h"; sourceTree = "<group>"; };
+		A76DBF239B08BB61968A913BE22BE50D /* WVideoPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WVideoPlayer.xcconfig; sourceTree = "<group>"; };
 		A7CA24731BFA9D002F64D8AB69CD7868 /* WVideoFilterItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoFilterItem.m; path = WVideoRecoder/Classes/WVideoFilterItem.m; sourceTree = "<group>"; };
-		A88BF784AB607D90141981F69A52AC8E /* UIView+WZQView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WZQView.h"; path = "WVideoPlayer/Classes/UIView+WZQView.h"; sourceTree = "<group>"; };
 		A9052C3E41E68222C5BADC588D92FE60 /* WRecoderHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRecoderHeader.h; path = WVideoRecoder/Classes/WRecoderHeader.h; sourceTree = "<group>"; };
-		AE2D73905641700B4B75A2463133263D /* btn_video_stop_90x90.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = btn_video_stop_90x90.png; path = WVideoPlayer/Assets/btn_video_stop_90x90.png; sourceTree = "<group>"; };
+		AA0469656D377E5F4799AD4F77654207 /* WNodataView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WNodataView.h; path = WBasicLibrary/Classes/WNodataView.h; sourceTree = "<group>"; };
+		AB1BFED4EBF1239750C5E9F85914F6BA /* UIImageView+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WHandler.h"; path = "WBasicLibrary/Classes/UIImageView+WHandler.h"; sourceTree = "<group>"; };
+		ABF494A78C5601E7D103339B42741742 /* WBasicLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBasicLibrary-prefix.pch"; sourceTree = "<group>"; };
+		AC042942C7E07EC9F008B63E39848F61 /* WBasicLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBasicLibrary-dummy.m"; sourceTree = "<group>"; };
 		B0B4E939DA31518394ED935D8F5A642D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B3C1B032F583FAA3376B44C7AEDAFC84 /* WVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoPlayer.m; path = WVideoPlayer/Classes/WVideoPlayer.m; sourceTree = "<group>"; };
-		B4B8EFBBB2ED3A2104E7F66F5DCEB73B /* WVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WVideoPlayer.framework; path = WVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47BCF13D8B6FDB033ECEDE9D09CBDF7 /* NSObject+Whandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Whandler.m"; path = "WBasicLibrary/Classes/NSObject+Whandler.m"; sourceTree = "<group>"; };
 		B7059FF5CFB73F0F14B7CDF9231792F2 /* WViedoPreviewAndEditVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WViedoPreviewAndEditVC.m; path = WVideoRecoder/Classes/WViedoPreviewAndEditVC.m; sourceTree = "<group>"; };
+		B70BEF7F4E1F9FAED775D329CCF5F273 /* narrow_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "narrow_btn@3x.png"; path = "WVideoPlayer/Assets/narrow_btn@3x.png"; sourceTree = "<group>"; };
+		B78ED09B97B8588DF6FE7B0BD1F0DBF1 /* btn_play_again_icon_160x80@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_play_again_icon_160x80@2x.png"; path = "WVideoPlayer/Assets/btn_play_again_icon_160x80@2x.png"; sourceTree = "<group>"; };
 		B866395160E4A17E32FDAF0D711AED02 /* WViedoPreviewAndEditVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WViedoPreviewAndEditVC.h; path = WVideoRecoder/Classes/WViedoPreviewAndEditVC.h; sourceTree = "<group>"; };
-		B8761AFF2D27ABBA52D24CA6FCD3F6D7 /* btn_play_again_icon_160x80@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_play_again_icon_160x80@3x.png"; path = "WVideoPlayer/Assets/btn_play_again_icon_160x80@3x.png"; sourceTree = "<group>"; };
-		BB4D72F973EE6C84161FCF42F1FDBBA5 /* 椭圆-1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "椭圆-1.png"; path = "WVideoPlayer/Assets/椭圆-1.png"; sourceTree = "<group>"; };
 		BC3FA55C23091E1F6AC4E4B231EDB2F0 /* Pods-WVideoRecoder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WVideoRecoder_Example-umbrella.h"; sourceTree = "<group>"; };
-		BCECB01517BE173007AF81448B5B7387 /* WVideoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoManager.m; path = WVideoPlayer/Classes/WVideoManager.m; sourceTree = "<group>"; };
+		C18DB16CB4A8958292F238B4C71ABB55 /* UILabel+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+WHandler.h"; path = "WBasicLibrary/Classes/UILabel+WHandler.h"; sourceTree = "<group>"; };
 		C3A09448444D168CDA695162D87524C1 /* WPhotoSelect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPhotoSelect.h; path = WVideoRecoder/Classes/WPhotoSelect.h; sourceTree = "<group>"; };
-		C49078C14DA63C3ADD16F39D2141879A /* WVideoPlayItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoPlayItem.h; path = WVideoPlayer/Classes/WVideoPlayItem.h; sourceTree = "<group>"; };
+		C41B6FAE5C4B212D3B0F902A75376B05 /* UIImageView+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WHandler.m"; path = "WBasicLibrary/Classes/UIImageView+WHandler.m"; sourceTree = "<group>"; };
 		C5A56D7C138622B3482600DA766A5707 /* WVideoRecoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WVideoRecoder-dummy.m"; sourceTree = "<group>"; };
-		C9E4AE3E519E1C2948662AE33167EC2D /* WVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoPlayer.h; path = WVideoPlayer/Classes/WVideoPlayer.h; sourceTree = "<group>"; };
+		C65074B1F36816AE913C902B62FCF460 /* UIViewController+WebHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WebHandler.m"; path = "WBasicLibrary/Classes/UIViewController+WebHandler.m"; sourceTree = "<group>"; };
+		C6540593F0A89EE38A0764FB99847A3A /* MicroDefinetion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MicroDefinetion.h; path = WBasicLibrary/Classes/MicroDefinetion.h; sourceTree = "<group>"; };
+		C714ACD9C893E48FC09818ABB20166B1 /* UIView+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WHandler.m"; path = "WBasicLibrary/Classes/UIView+WHandler.m"; sourceTree = "<group>"; };
+		C801C35E445620CC0C5A51EA2E44D478 /* UIColor+Whandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Whandler.h"; path = "WBasicLibrary/Classes/UIColor+Whandler.h"; sourceTree = "<group>"; };
 		CB2A50EF78E6B5CFC4BB8FB70F2DE580 /* WPhotoSelect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPhotoSelect.m; path = WVideoRecoder/Classes/WPhotoSelect.m; sourceTree = "<group>"; };
+		CC292788E67AFE61DB627ADB64BB3D1C /* UILabel+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+WHandler.m"; path = "WBasicLibrary/Classes/UILabel+WHandler.m"; sourceTree = "<group>"; };
+		CCC90CD52F01FF0872031A4FD3D210CC /* NSString+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+WHandler.h"; path = "WBasicLibrary/Classes/NSString+WHandler.h"; sourceTree = "<group>"; };
 		CCDE1F365770683FD7D021348D5741A0 /* WVideoRecoder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WVideoRecoder.modulemap; sourceTree = "<group>"; };
-		D06ABFC15BACE6B095F1D34F63059A84 /* btn_video_play_90x90.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = btn_video_play_90x90.png; path = WVideoPlayer/Assets/btn_video_play_90x90.png; sourceTree = "<group>"; };
-		D8D1CB193722B268DCEC470EEE4CFA25 /* WVideoPlayControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoPlayControlView.m; path = WVideoPlayer/Classes/WVideoPlayControlView.m; sourceTree = "<group>"; };
+		D30A7B97BAB5E850B3106957855323C6 /* NSMutableArray+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+WHandler.h"; path = "WBasicLibrary/Classes/NSMutableArray+WHandler.h"; sourceTree = "<group>"; };
+		D31E9B24AC5A609ADF8C04A62C38D097 /* WVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoPlayer.m; path = WVideoPlayer/Classes/WVideoPlayer.m; sourceTree = "<group>"; };
+		D49C7B6F47DBD86C1C0748CCD0A9171E /* WMessageAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMessageAction.h; path = WBasicLibrary/Classes/WMessageAction.h; sourceTree = "<group>"; };
+		D8D1FAB39BD416E04BABE49D7315F010 /* NSDate+Whandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Whandler.m"; path = "WBasicLibrary/Classes/NSDate+Whandler.m"; sourceTree = "<group>"; };
+		D9C9283A2754A441EBF8586B0D9EF9E8 /* WBasicLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBasicLibrary.xcconfig; sourceTree = "<group>"; };
+		D9CCD12A4EC98070F88CD6F23ECCD8A8 /* UIViewController+BasicHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BasicHandler.h"; path = "WBasicLibrary/Classes/UIViewController+BasicHandler.h"; sourceTree = "<group>"; };
 		D9E7840F68EEA34D0AE2BA802C9F221D /* WVideoRecoder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WVideoRecoder-umbrella.h"; sourceTree = "<group>"; };
 		DB41B7E33A87931B1D921B393EFC1951 /* WRecorderDefiniations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRecorderDefiniations.h; path = WVideoRecoder/Classes/WRecorderDefiniations.h; sourceTree = "<group>"; };
 		DC0A2E63FF862D31513C85ABC9EC8923 /* WRecoderVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRecoderVC.m; path = WVideoRecoder/Classes/WRecoderVC.m; sourceTree = "<group>"; };
+		DCCBF161B8757C81939F5AE61FAE0141 /* WVideoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoManager.m; path = WVideoPlayer/Classes/WVideoManager.m; sourceTree = "<group>"; };
+		DEEA9053C1E9B1CBA28611DF950AA4AF /* NSArray+WHander.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+WHander.m"; path = "WBasicLibrary/Classes/NSArray+WHander.m"; sourceTree = "<group>"; };
 		DF7434FD44C355AF79E96CB37F0D873A /* WRecodeControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRecodeControlView.m; path = WVideoRecoder/Classes/WRecodeControlView.m; sourceTree = "<group>"; };
-		E0484EE54D5BC24CCE15A18081274F91 /* btn_video_stop_90x90@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_video_stop_90x90@3x.png"; path = "WVideoPlayer/Assets/btn_video_stop_90x90@3x.png"; sourceTree = "<group>"; };
+		E146C6185A667F77FFD2E9F1D1AAF00D /* UIAlertController+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+WHandler.h"; path = "WBasicLibrary/Classes/UIAlertController+WHandler.h"; sourceTree = "<group>"; };
 		E23FE026C0391EE2176FF0D9689E11B8 /* Pods-WVideoRecoder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WVideoRecoder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E3C32429D1BBE95F20DBC8CF23B759EE /* WVideoRecoder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WVideoRecoder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E8C58DB2EB823AD049D3B8E5F93C1307 /* UIView+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WHandler.h"; path = "WBasicLibrary/Classes/UIView+WHandler.h"; sourceTree = "<group>"; };
+		EB742525E3FDC24D731959AC71FA5F55 /* WThreadTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WThreadTool.h; path = WBasicLibrary/Classes/WThreadTool.h; sourceTree = "<group>"; };
+		ED66BA9DCADA2EB5A4C603A5AFFD0314 /* WBasicLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WBasicLibrary.framework; path = WBasicLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7AE3E090B22B3BE9B4C33AE05E62F5 /* left_back_icon_white_60x60.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = left_back_icon_white_60x60.png; path = WVideoPlayer/Assets/left_back_icon_white_60x60.png; sourceTree = "<group>"; };
 		F03AB245E43628DC6A92C1C8A487716F /* Pods-WVideoRecoder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WVideoRecoder_Example-dummy.m"; sourceTree = "<group>"; };
-		F08178D51FA2C5A0978909CA77C068D8 /* narrow_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "narrow_btn@2x.png"; path = "WVideoPlayer/Assets/narrow_btn@2x.png"; sourceTree = "<group>"; };
-		F13CB5723CC68575AECEE10EE2205731 /* WVideoPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WVideoPlayer-dummy.m"; sourceTree = "<group>"; };
-		F22FCF1E12775B1E45E56DD776B6A93D /* video_amplification.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = video_amplification.png; path = WVideoPlayer/Assets/video_amplification.png; sourceTree = "<group>"; };
+		F0B6638BA2163FB3B5156770609D8FFF /* btn_play_again_icon_160x80.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = btn_play_again_icon_160x80.png; path = WVideoPlayer/Assets/btn_play_again_icon_160x80.png; sourceTree = "<group>"; };
 		F257A9ED2981917C1C3746BE9689AFC8 /* WRecorderStorageService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRecorderStorageService.m; path = WVideoRecoder/Classes/WRecorderStorageService.m; sourceTree = "<group>"; };
-		F36099BD1AD7E29E2989791A18D618FF /* WVideoPlayItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoPlayItem.m; path = WVideoPlayer/Classes/WVideoPlayItem.m; sourceTree = "<group>"; };
+		F3AABFB200A3F6AC854E3C617E4F4045 /* WBasicLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBasicLibrary.modulemap; sourceTree = "<group>"; };
 		F490DE279508C2FF9FB9F36000241C47 /* WVideoClickBtn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WVideoClickBtn.m; path = WVideoRecoder/Classes/WVideoClickBtn.m; sourceTree = "<group>"; };
+		F56D1DC57375783963EA79AC9FD76F2B /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = WBasicLibrary/Classes/Reachability.h; sourceTree = "<group>"; };
 		F755AE974A8059634B3187631C56CA29 /* WVideoHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoHeaderView.h; path = WVideoRecoder/Classes/WVideoHeaderView.h; sourceTree = "<group>"; };
-		F8C67343D8EB8633ACA3879C30C93155 /* WVideoRecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WVideoRecoder.framework; path = WVideoRecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBC126CCCF0B46EBF4B8F50A2766E1B8 /* WVideoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoManager.h; path = WVideoPlayer/Classes/WVideoManager.h; sourceTree = "<group>"; };
+		F7CC078C118ED4766E5D51E7123BB3AA /* UIViewController+WebHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WebHandler.h"; path = "WBasicLibrary/Classes/UIViewController+WebHandler.h"; sourceTree = "<group>"; };
+		F9A0429B3822ECD51F8F2B8823F503D1 /* left_back_icon_white_60x60@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "left_back_icon_white_60x60@3x.png"; path = "WVideoPlayer/Assets/left_back_icon_white_60x60@3x.png"; sourceTree = "<group>"; };
 		FBF08D1ADB7618BA48D36CFD60D1FDD2 /* WVideoPreviewLayerListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WVideoPreviewLayerListView.h; path = WVideoRecoder/Classes/WVideoPreviewLayerListView.h; sourceTree = "<group>"; };
-		FC85AA31D8EFBDB7E345A98C46A76EA9 /* btn_video_play_90x90@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_video_play_90x90@2x.png"; path = "WVideoPlayer/Assets/btn_video_play_90x90@2x.png"; sourceTree = "<group>"; };
 		FD80B25C56201CCC61AEE961A32E2A1F /* WRecoderVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRecoderVC.h; path = WVideoRecoder/Classes/WRecoderVC.h; sourceTree = "<group>"; };
-		FE41AC2E250C8D0495BF7E9ACB0FA5DB /* WVideoPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WVideoPlayer-prefix.pch"; sourceTree = "<group>"; };
+		FDE5E8BA0F5FCEA6ADC40D90B8615D78 /* WMessageAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMessageAction.m; path = WBasicLibrary/Classes/WMessageAction.m; sourceTree = "<group>"; };
 		FF2189CCF779C65A5553C2D29249857C /* WVideoRecoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WVideoRecoder-prefix.pch"; sourceTree = "<group>"; };
-		FF3088ADF73C7A0CA18354E7B02487F6 /* video_amplification@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video_amplification@3x.png"; path = "WVideoPlayer/Assets/video_amplification@3x.png"; sourceTree = "<group>"; };
+		FF933380F6101BB5E361FEB22483F478 /* 椭圆-1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "椭圆-1@3x.png"; path = "WVideoPlayer/Assets/椭圆-1@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7E9031143E6B45A03072A54462C4AE8B /* Frameworks */ = {
+		01C968B2E6D0DFA8FA786CC037B49A5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F986B8EAE9A73752EBEA591A20B3D30 /* Foundation.framework in Frameworks */,
+				5FEA58CA7D7BC8309D860CF4EE1F9A72 /* Foundation.framework in Frameworks */,
+				A461AE724A0643742B07A1346F5F9811 /* WBasicLibrary.framework in Frameworks */,
+				B8A12BB6B4527EB422FD72BA749DD800 /* WVideoPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		834EC0BC741A718FCD9D16F4D3681C73 /* Frameworks */ = {
+		739BCFD25FFE9E39D11AD2B7274A2908 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C05DE44702272C13455FA9D0730128B /* Foundation.framework in Frameworks */,
+				29B221FEC712897D8E103300F10A46ED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		837C74588D91ECEFA4CDC2F25291B456 /* Frameworks */ = {
+		79F1F9143CDE14E2769E32272F7D98EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3F8BE5FF75FCF0EDFB93874BE1C4A7 /* Foundation.framework in Frameworks */,
+				FF33C4806224CD3191BDE26B739E7BCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8567AF19858BFFAB81685C42533E967B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478CCB5D9867CD6AE1620FA1C5171D78 /* Foundation.framework in Frameworks */,
+				B40D0ED5B661FBA2E3A1A78299E7B383 /* WBasicLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022E491F25953D4F24B5874DE14EB94E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7505413EB34C0CB5EB4E203F5B2DC4F5 /* Pods_WVideoRecoder_Example.framework */,
+				ED66BA9DCADA2EB5A4C603A5AFFD0314 /* WBasicLibrary.framework */,
+				5C5EF3A9EC26565243788E316C696593 /* WVideoPlayer.framework */,
+				7DFB0BC989C79BE30ABB00F3FF02649A /* WVideoRecoder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		02661A767000BCA69C11EEDA6F4744F4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +393,29 @@
 				25856BEAE98536201EDDA128C406F077 /* Pods-WVideoRecoder_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1CE2CC9285A80823CC65C5ACCC69BC7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9ECDA6E3085FE040C01143B57031704 /* WBasicLibrary */,
+				DEAE9E3FB8F79373A85C498DE87DCC48 /* WVideoPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24FCFF9FCF495A6721458C06FAE21155 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78E08AD6E96370F4A1E9D5B4DA4FF793 /* Info.plist */,
+				F3AABFB200A3F6AC854E3C617E4F4045 /* WBasicLibrary.modulemap */,
+				D9C9283A2754A441EBF8586B0D9EF9E8 /* WBasicLibrary.xcconfig */,
+				AC042942C7E07EC9F008B63E39848F61 /* WBasicLibrary-dummy.m */,
+				ABF494A78C5601E7D103339B42741742 /* WBasicLibrary-prefix.pch */,
+				9ED1038ACF5FED7B9DDAF017A0E30C6A /* WBasicLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WBasicLibrary";
 			sourceTree = "<group>";
 		};
 		25856BEAE98536201EDDA128C406F077 /* Pods-WVideoRecoder_Example */ = {
@@ -258,6 +436,48 @@
 			path = "Target Support Files/Pods-WVideoRecoder_Example";
 			sourceTree = "<group>";
 		};
+		2D4B6462F8317B80733A76102698FD08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0B6638BA2163FB3B5156770609D8FFF /* btn_play_again_icon_160x80.png */,
+				B78ED09B97B8588DF6FE7B0BD1F0DBF1 /* btn_play_again_icon_160x80@2x.png */,
+				14F5CE30DACD0FE01D07364AC6176A62 /* btn_play_again_icon_160x80@3x.png */,
+				057C1F17FA07FD0803071B6A94809437 /* btn_video_play_90x90.png */,
+				77B5AC64ED235525F66F1DFA547626F3 /* btn_video_play_90x90@2x.png */,
+				562FBA70E2AECC84FEB808E0F57F3B09 /* btn_video_play_90x90@3x.png */,
+				5F6BE413CAD39119E3A0A10525F8947B /* btn_video_stop_90x90.png */,
+				52E5D9F9CD6B58196D6F73005BB8390C /* btn_video_stop_90x90@2x.png */,
+				10F889999724CFBDD7414C3E2A3A7C5D /* btn_video_stop_90x90@3x.png */,
+				ED7AE3E090B22B3BE9B4C33AE05E62F5 /* left_back_icon_white_60x60.png */,
+				23ABC29DBE2AF3AA4CFFE007AB36DA48 /* left_back_icon_white_60x60@2x.png */,
+				F9A0429B3822ECD51F8F2B8823F503D1 /* left_back_icon_white_60x60@3x.png */,
+				A27B2E53A724FDD71888255E9762B6B1 /* narrow_btn.png */,
+				9D46B9EB3B2B400485ADA9E576EDF706 /* narrow_btn@2x.png */,
+				B70BEF7F4E1F9FAED775D329CCF5F273 /* narrow_btn@3x.png */,
+				54BB30A0C5027EE0881358BFAFFE9FE1 /* video_amplification.png */,
+				1CABAEFC4D7E324C0971258A39D267CB /* video_amplification@2x.png */,
+				00F7A4D110414D9AC2451C411852E4EB /* video_amplification@3x.png */,
+				1B99C7E639608AD8B2F77DF0C1A355EE /* 椭圆-1.png */,
+				5151F80B0C204AD0BA9DD0E625A91D20 /* 椭圆-1@2x.png */,
+				FF933380F6101BB5E361FEB22483F478 /* 椭圆-1@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		30F8CDA885B6D56934263057BC8C971D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				412A2A941F5901176B6EC8E40F92FC92 /* Info.plist */,
+				7C597F8260FA18A460A4C3914CAFC426 /* WVideoPlayer.modulemap */,
+				A76DBF239B08BB61968A913BE22BE50D /* WVideoPlayer.xcconfig */,
+				451C582980EDC597115F7143D20D547E /* WVideoPlayer-dummy.m */,
+				4F52A23B19C6EE4C00465C74226DAC88 /* WVideoPlayer-prefix.pch */,
+				92F3A0C832034F3D4B3FCDF858FA8706 /* WVideoPlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WVideoPlayer";
+			sourceTree = "<group>";
+		};
 		31E49FACFD9630A7D3F63E9DCBC0F793 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,44 +492,12 @@
 			path = "Example/Pods/Target Support Files/WVideoRecoder";
 			sourceTree = "<group>";
 		};
-		3CDB4327BD9FFD891895C138F05A3B02 /* Support Files */ = {
+		674E2DC47CA1D83FB2678C1DE4D14B70 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2AE9E2D1EF353BC7761B52B8E6077892 /* Info.plist */,
-				8BB563584E1D4A6AFD85608780DD08E7 /* WVideoPlayer.modulemap */,
-				11019E59ADEB7DC62072F836FFC17CD4 /* WVideoPlayer.xcconfig */,
-				F13CB5723CC68575AECEE10EE2205731 /* WVideoPlayer-dummy.m */,
-				FE41AC2E250C8D0495BF7E9ACB0FA5DB /* WVideoPlayer-prefix.pch */,
-				2582568E4FF57ADE369290F2026E61B6 /* WVideoPlayer-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WVideoPlayer";
-			sourceTree = "<group>";
-		};
-		3D5B1F5DFBABDEB5188BAD3D3F085827 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				06577D0EBE0D79FAA2C6C7CDF2C44E41 /* Pods_WVideoRecoder_Example.framework */,
-				B4B8EFBBB2ED3A2104E7F66F5DCEB73B /* WVideoPlayer.framework */,
-				F8C67343D8EB8633ACA3879C30C93155 /* WVideoRecoder.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				34A733BB6AE30FE9C947135277988290 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		62C1A50A99C33F58F9954441BD32F3B6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				93ECF3DC711BFF40F8D18E14ACD40C4B /* WVideoPlayer */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -317,39 +505,77 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				E27434938C1AE2AACD9520A5FBEB7C65 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				62C1A50A99C33F58F9954441BD32F3B6 /* Pods */,
-				3D5B1F5DFBABDEB5188BAD3D3F085827 /* Products */,
+				C54DD294A43F37702C59FC63AA3D1548 /* Frameworks */,
+				1CE2CC9285A80823CC65C5ACCC69BC7F /* Pods */,
+				022E491F25953D4F24B5874DE14EB94E /* Products */,
 				098C5E4A334CAEE8017DF75A1EBA3217 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		93ECF3DC711BFF40F8D18E14ACD40C4B /* WVideoPlayer */ = {
+		C54DD294A43F37702C59FC63AA3D1548 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A88BF784AB607D90141981F69A52AC8E /* UIView+WZQView.h */,
-				60315A1DADE97B225C81D38B3FA602A9 /* UIView+WZQView.m */,
-				FBC126CCCF0B46EBF4B8F50A2766E1B8 /* WVideoManager.h */,
-				BCECB01517BE173007AF81448B5B7387 /* WVideoManager.m */,
-				4BE5CAEF0F8F73CFD3921E0772E5B76A /* WVideoPlayControlView.h */,
-				D8D1CB193722B268DCEC470EEE4CFA25 /* WVideoPlayControlView.m */,
-				C9E4AE3E519E1C2948662AE33167EC2D /* WVideoPlayer.h */,
-				B3C1B032F583FAA3376B44C7AEDAFC84 /* WVideoPlayer.m */,
-				C49078C14DA63C3ADD16F39D2141879A /* WVideoPlayItem.h */,
-				F36099BD1AD7E29E2989791A18D618FF /* WVideoPlayItem.m */,
-				EB6244710D488E02861E2BCFF09D615C /* Resources */,
-				3CDB4327BD9FFD891895C138F05A3B02 /* Support Files */,
-			);
-			name = WVideoPlayer;
-			path = WVideoPlayer;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				1A552D39BB9D1C61920D5A6D077456D7 /* WBasicLibrary.framework */,
+				4B7E13D150E55732B04CB4B005656386 /* WVideoPlayer.framework */,
+				674E2DC47CA1D83FB2678C1DE4D14B70 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9ECDA6E3085FE040C01143B57031704 /* WBasicLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				C6540593F0A89EE38A0764FB99847A3A /* MicroDefinetion.h */,
+				9481DB900EB6CB67DA0471658B387EA2 /* NSArray+WHander.h */,
+				DEEA9053C1E9B1CBA28611DF950AA4AF /* NSArray+WHander.m */,
+				632D4BA5BD5ABE0908798C122BD09CC6 /* NSData+AES256_.h */,
+				76EE78B286477A4C8776185145873756 /* NSData+AES256_.m */,
+				6E75326E3BF4C688C74C084BA8090F3B /* NSData+Base64_.h */,
+				57959E692122317409AEB03D306A1E57 /* NSData+Base64_.m */,
+				56372E99E973D83549AC17FBFFB12A89 /* NSDate+Whandler.h */,
+				D8D1FAB39BD416E04BABE49D7315F010 /* NSDate+Whandler.m */,
+				D30A7B97BAB5E850B3106957855323C6 /* NSMutableArray+WHandler.h */,
+				3AA7DBFA8419F7CF86BDF2EC98023245 /* NSMutableArray+WHandler.m */,
+				737E3582FE9BC99AF4E52AE2F07F9CA9 /* NSObject+Whandler.h */,
+				B47BCF13D8B6FDB033ECEDE9D09CBDF7 /* NSObject+Whandler.m */,
+				CCC90CD52F01FF0872031A4FD3D210CC /* NSString+WHandler.h */,
+				3C3B09468B1046C7E0E777424711C28E /* NSString+WHandler.m */,
+				668829F3AD63E4A6F574087943D4EA3C /* QuickCode.h */,
+				F56D1DC57375783963EA79AC9FD76F2B /* Reachability.h */,
+				3CCA77508F71A5F30101AB66E7E140F1 /* Reachability.m */,
+				E146C6185A667F77FFD2E9F1D1AAF00D /* UIAlertController+WHandler.h */,
+				1C17D93E202F880388FFFA82622D865A /* UIAlertController+WHandler.m */,
+				C801C35E445620CC0C5A51EA2E44D478 /* UIColor+Whandler.h */,
+				85F3F6AAF229694501B78D21800380B2 /* UIColor+Whandler.m */,
+				A64ABCDD13E5ECBBF5F6272D9622A312 /* UIImage+WHandler.h */,
+				393DD1D1255A3307D426984728023D9A /* UIImage+WHandler.m */,
+				AB1BFED4EBF1239750C5E9F85914F6BA /* UIImageView+WHandler.h */,
+				C41B6FAE5C4B212D3B0F902A75376B05 /* UIImageView+WHandler.m */,
+				C18DB16CB4A8958292F238B4C71ABB55 /* UILabel+WHandler.h */,
+				CC292788E67AFE61DB627ADB64BB3D1C /* UILabel+WHandler.m */,
+				E8C58DB2EB823AD049D3B8E5F93C1307 /* UIView+WHandler.h */,
+				C714ACD9C893E48FC09818ABB20166B1 /* UIView+WHandler.m */,
+				D9CCD12A4EC98070F88CD6F23ECCD8A8 /* UIViewController+BasicHandler.h */,
+				5F447AC41019C7B53C4F710EEFF38DB2 /* UIViewController+BasicHandler.m */,
+				4840781C9B3F2EACEC775839CF07838F /* UIViewController+TableHandler.h */,
+				07317236B471AD6263757BAE9BFA5999 /* UIViewController+TableHandler.m */,
+				F7CC078C118ED4766E5D51E7123BB3AA /* UIViewController+WebHandler.h */,
+				C65074B1F36816AE913C902B62FCF460 /* UIViewController+WebHandler.m */,
+				12DCE347FCAC7CA41FE20963AA70C578 /* WBasicHeader.h */,
+				6C4FBA192EFAD989925D16144CB9D995 /* WDevice.h */,
+				2BC42A1A0D3608D9CECA565F46EB7A8E /* WDevice.m */,
+				D49C7B6F47DBD86C1C0748CCD0A9171E /* WMessageAction.h */,
+				FDE5E8BA0F5FCEA6ADC40D90B8615D78 /* WMessageAction.m */,
+				AA0469656D377E5F4799AD4F77654207 /* WNodataView.h */,
+				64E7ECC93E706B434FD76B98435DAC37 /* WNodataView.m */,
+				6CA04280EE7598B4FE80D315AAE647A7 /* WRequestStatueView.h */,
+				5EF75E3BEBF60ED509C446AA73B19D81 /* WRequestStatueView.m */,
+				EB742525E3FDC24D731959AC71FA5F55 /* WThreadTool.h */,
+				4176168C6A69AAB5A6E3F4F200892A98 /* WThreadTool.m */,
+				24FCFF9FCF495A6721458C06FAE21155 /* Support Files */,
+			);
+			name = WBasicLibrary;
+			path = WBasicLibrary;
 			sourceTree = "<group>";
 		};
 		DCA2EF236FE0C53C5B1A863A382A3CA0 /* WVideoRecoder */ = {
@@ -394,6 +620,24 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		DEAE9E3FB8F79373A85C498DE87DCC48 /* WVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				39E3628F2101DEEDA6F640622BEAFD78 /* WVideoManager.h */,
+				DCCBF161B8757C81939F5AE61FAE0141 /* WVideoManager.m */,
+				7E4DEF336D90FF53FDAE1DE48D772FAB /* WVideoPlayControlView.h */,
+				0206E71D5BBFE532944F9BABFEB295D6 /* WVideoPlayControlView.m */,
+				19AC28036A2588617020DA756B49E53E /* WVideoPlayer.h */,
+				D31E9B24AC5A609ADF8C04A62C38D097 /* WVideoPlayer.m */,
+				09163995C917437EC1446F2153F4FBA8 /* WVideoPlayItem.h */,
+				73668BFA5D505BFC843399F17D0094CB /* WVideoPlayItem.m */,
+				2D4B6462F8317B80733A76102698FD08 /* Resources */,
+				30F8CDA885B6D56934263057BC8C971D /* Support Files */,
+			);
+			name = WVideoPlayer;
+			path = WVideoPlayer;
+			sourceTree = "<group>";
+		};
 		E27434938C1AE2AACD9520A5FBEB7C65 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -402,138 +646,163 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		EB6244710D488E02861E2BCFF09D615C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9B0C9128133BC8FB141ED7E4CCA46459 /* btn_play_again_icon_160x80.png */,
-				9E2FFB2A0651567437B8E948A4079C07 /* btn_play_again_icon_160x80@2x.png */,
-				B8761AFF2D27ABBA52D24CA6FCD3F6D7 /* btn_play_again_icon_160x80@3x.png */,
-				D06ABFC15BACE6B095F1D34F63059A84 /* btn_video_play_90x90.png */,
-				FC85AA31D8EFBDB7E345A98C46A76EA9 /* btn_video_play_90x90@2x.png */,
-				55964A519A73BFDA646B24EFCB384ABA /* btn_video_play_90x90@3x.png */,
-				AE2D73905641700B4B75A2463133263D /* btn_video_stop_90x90.png */,
-				A184D90819287C0CCAD4EBAC179D39E8 /* btn_video_stop_90x90@2x.png */,
-				E0484EE54D5BC24CCE15A18081274F91 /* btn_video_stop_90x90@3x.png */,
-				5577FA3BE5206B38C9782E354455E2FF /* left_back_icon_white_60x60.png */,
-				1E9532CE724F99078AB36D13305A1438 /* left_back_icon_white_60x60@2x.png */,
-				A48ABF9AAC2ABF33106DB9FEB7C51214 /* left_back_icon_white_60x60@3x.png */,
-				0469EC08A6717C8B68EF041E119F090D /* narrow_btn.png */,
-				F08178D51FA2C5A0978909CA77C068D8 /* narrow_btn@2x.png */,
-				7E30D36B8543261E9939B31F3E90EE15 /* narrow_btn@3x.png */,
-				F22FCF1E12775B1E45E56DD776B6A93D /* video_amplification.png */,
-				85E48AC67FDD4B44D76E5973748F0058 /* video_amplification@2x.png */,
-				FF3088ADF73C7A0CA18354E7B02487F6 /* video_amplification@3x.png */,
-				BB4D72F973EE6C84161FCF42F1FDBBA5 /* 椭圆-1.png */,
-				0A894F28EC6790D01226119EA1FB26E4 /* 椭圆-1@2x.png */,
-				3F8BF8FCD9D1F9C249C0B0D174970D75 /* 椭圆-1@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0CAF7512747183CFDDB3EAC4CE560DD3 /* Headers */ = {
+		3EEF03034A3F28AB11E30FCE5C4F1F3B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74452CBA114251745ACE15C3558F4CC /* HVideoRecodeVC.h in Headers */,
-				0C9D0BECDDF08FD1AAA7CACC6B4D0457 /* WPhotoPreviewVCViewController.h in Headers */,
-				589D7087F17A63F13AEEC31FC7A7BC2D /* WPhotoSelect.h in Headers */,
-				C35DE41844DD4482A1E1AB24F9700DA4 /* WRecodeControlView.h in Headers */,
-				478D85EBB07CF2FED289A37CA96C1802 /* WRecoderHeader.h in Headers */,
-				79F319B9A401E0C182EB948A35B0591D /* WRecoderVC.h in Headers */,
-				463B3A994E2BFF1943ABB7F27A5CA12A /* WRecorderDefiniations.h in Headers */,
-				E1C611CD1EC6154B4AA62F6B32E73374 /* WRecorderProcessService.h in Headers */,
-				30D194F4E72C5C622A955DC177236D06 /* WRecorderService.h in Headers */,
-				91C8518DD8AD981A2665C8BFDDDBB177 /* WRecorderStorageService.h in Headers */,
-				DB074A176658D72F60A2DF9261E71ACF /* WVideoBottomSelectView.h in Headers */,
-				72FE613273D5A30F58E72B20FADF18E8 /* WVideoClickBtn.h in Headers */,
-				BB3445404201C2BA463A6183BC93AA98 /* WVideoFilterItem.h in Headers */,
-				F77119A598ADEBE7F1E9357D289E64D8 /* WVideoFilterListView.h in Headers */,
-				EB3B701F32938B5C25216D6E89933D92 /* WVideoHeaderView.h in Headers */,
-				A8CFB5B569805ACF95B3C9210C48207D /* WVideoPreviewLayerListView.h in Headers */,
-				FA34A24184783773BAF942933315FADA /* WVideoRecoder-umbrella.h in Headers */,
-				2F3E1BAC90ECCF9883E987EC69DDCB2D /* WViedoPreviewAndEditVC.h in Headers */,
+				9161DD28BA8965EA8E276899C846BFC8 /* WVideoManager.h in Headers */,
+				517E20830D9B10E724A71316AC51B1A4 /* WVideoPlayControlView.h in Headers */,
+				85B0D9E29F3722EA4F66CCE422033FE1 /* WVideoPlayer-umbrella.h in Headers */,
+				540DAB77E6E0062118661CE75BB4AF82 /* WVideoPlayer.h in Headers */,
+				B796F7DB45A41C5E703D806ACF4A7A1D /* WVideoPlayItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79EDBA19B91A8B030E8970CC5F6CA34B /* Headers */ = {
+		63085049F3164697C38CC1C6C7D04393 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893F8D45B0482AC8D8E1BF426BCFCB93 /* Pods-WVideoRecoder_Example-umbrella.h in Headers */,
+				A3C8E9CEFAF0F655EBF754AAB04BD508 /* MicroDefinetion.h in Headers */,
+				98EE064D51C1A28B4D4BB9C78A5F67A8 /* NSArray+WHander.h in Headers */,
+				4FBCADFF50DA7B49DEDE3B45A2A9BE72 /* NSData+AES256_.h in Headers */,
+				ACD5EDA19F84C35226ED078E49D32BF2 /* NSData+Base64_.h in Headers */,
+				1D32CABAACD76474AECF8A990C6755EF /* NSDate+Whandler.h in Headers */,
+				97D2917A2E401B7EEDB61B7839309622 /* NSMutableArray+WHandler.h in Headers */,
+				EA6967204079D05FA01179C3543C35B5 /* NSObject+Whandler.h in Headers */,
+				68999C1D1F4C73F79AE209150D382589 /* NSString+WHandler.h in Headers */,
+				0B7AAE69AA010D7B87C20D4CE14D4CE0 /* QuickCode.h in Headers */,
+				83C939859CA7BD374CA227B6826A36A9 /* Reachability.h in Headers */,
+				D2ECE617A6778FC4C18B414EF0A52471 /* UIAlertController+WHandler.h in Headers */,
+				24DAE7281E691B977853BC092C0FB746 /* UIColor+Whandler.h in Headers */,
+				EBEA3EBFD443BBE058CA1E9CE9527948 /* UIImage+WHandler.h in Headers */,
+				6786B7CE32978CBAFDAB22F38B83B364 /* UIImageView+WHandler.h in Headers */,
+				DA3623CF41A6FDFD74F154FCF2A02B23 /* UILabel+WHandler.h in Headers */,
+				D6AAA3A7B7BDCAA5649B610A48354E6E /* UIView+WHandler.h in Headers */,
+				248D30A9F16740915E61168E461FE9D8 /* UIViewController+BasicHandler.h in Headers */,
+				4AAD3AFB2762377C1516D841E519E9A6 /* UIViewController+TableHandler.h in Headers */,
+				EBC4FB4C7157E613C7CEAAE139FD8B6F /* UIViewController+WebHandler.h in Headers */,
+				2AA13460967B0F8E39D036A7D5D62C24 /* WBasicHeader.h in Headers */,
+				65E8B1170DCA5E7699B98876E461ACC6 /* WBasicLibrary-umbrella.h in Headers */,
+				23F60CD8ED8D82BDBFACBED032511608 /* WDevice.h in Headers */,
+				F0B7A2116A3E5DB4D659E5526B5C92A5 /* WMessageAction.h in Headers */,
+				D42EF709D7764D3FD6FE8C12C12ED914 /* WNodataView.h in Headers */,
+				74FA1F15BEAD0C918333760E5E828FEA /* WRequestStatueView.h in Headers */,
+				0BC51708F4CDE559410FDB7FD77A9FE4 /* WThreadTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACFB325F111BD7B86B2CAD586C2DD2BD /* Headers */ = {
+		F3F7136F2F2817BD3E5006F42FF13C49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				322C678B82D3D07FDB51BEC7B5B2EDE8 /* UIView+WZQView.h in Headers */,
-				B8C486007A6995C21EBD13B755E7ED2D /* WVideoManager.h in Headers */,
-				0F6F552A14F20E78344494059CB1046F /* WVideoPlayControlView.h in Headers */,
-				0FCCBF7CF53EEF9E7404D263D2E85CD3 /* WVideoPlayer-umbrella.h in Headers */,
-				F726187808653F3417FB4D5E3B524A91 /* WVideoPlayer.h in Headers */,
-				FE2723C8E288CCA02564DD34F547CF5F /* WVideoPlayItem.h in Headers */,
+				0ECEAD88387BEDA069810668153C06A2 /* Pods-WVideoRecoder_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F651CDB6812CB62068005EFF490D66BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36743750DE29EA824102A77DB8D0BB3F /* HVideoRecodeVC.h in Headers */,
+				1B4B043813015F6E6DB4D848F047FF20 /* WPhotoPreviewVCViewController.h in Headers */,
+				48C2D08C9E4770BC7A2B658068890F97 /* WPhotoSelect.h in Headers */,
+				E51CC6B3BF7BEFA506DFCAE179D9F222 /* WRecodeControlView.h in Headers */,
+				578B13AEF27A90FBBB3D1E5CBD6AD475 /* WRecoderHeader.h in Headers */,
+				EADBD62A863511BCFEA896C7CC308FDF /* WRecoderVC.h in Headers */,
+				73ADDBBC9D86CA61E293250C97300751 /* WRecorderDefiniations.h in Headers */,
+				BE017A93C0B5B21C6AB18CF5C8F4E415 /* WRecorderProcessService.h in Headers */,
+				33E465E14105118471AC0E0E77B9A7A8 /* WRecorderService.h in Headers */,
+				50E388E5E731E299A98B95C5FC73F2CF /* WRecorderStorageService.h in Headers */,
+				1E5567C2FE6763C963AA2B56E127257F /* WVideoBottomSelectView.h in Headers */,
+				15B3282B20436DAA5C6A5C4FC25AD2BD /* WVideoClickBtn.h in Headers */,
+				5360128A1DE2D2BED3A245934B71D91F /* WVideoFilterItem.h in Headers */,
+				D902BA8875AD40BA08EC8C6AF9BC7B73 /* WVideoFilterListView.h in Headers */,
+				A3DE5D849D788B570238F78E41D7BABF /* WVideoHeaderView.h in Headers */,
+				DA4B470B330D068C871F0957C8F93302 /* WVideoPreviewLayerListView.h in Headers */,
+				26AB33E55B94A5EE04ABC08AA2047896 /* WVideoRecoder-umbrella.h in Headers */,
+				644C3B24DF8B2C03D5B04AF3220AADA1 /* WViedoPreviewAndEditVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2CD1453C6E5F562139947147BED05A45 /* Pods-WVideoRecoder_Example */ = {
+		359A7617E33F5048AFDC126326E50162 /* WBasicLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10DA7B78A66CCF37433A656AFFE4830F /* Build configuration list for PBXNativeTarget "Pods-WVideoRecoder_Example" */;
+			buildConfigurationList = 53A67903FA9A27736E0726EFE52F8346 /* Build configuration list for PBXNativeTarget "WBasicLibrary" */;
 			buildPhases = (
-				2D3DE73F1DA1EBC2B0C65BE4C52AFC59 /* Sources */,
-				834EC0BC741A718FCD9D16F4D3681C73 /* Frameworks */,
-				79EDBA19B91A8B030E8970CC5F6CA34B /* Headers */,
+				F92D3442C6992BD99C51365414713D7F /* Sources */,
+				739BCFD25FFE9E39D11AD2B7274A2908 /* Frameworks */,
+				63085049F3164697C38CC1C6C7D04393 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A050CAC8EB8377B886A8A0D95E432A5 /* PBXTargetDependency */,
-				501CBD0C619E1698B5DCFE4D91C6059A /* PBXTargetDependency */,
 			);
-			name = "Pods-WVideoRecoder_Example";
-			productName = "Pods-WVideoRecoder_Example";
-			productReference = 06577D0EBE0D79FAA2C6C7CDF2C44E41 /* Pods_WVideoRecoder_Example.framework */;
+			name = WBasicLibrary;
+			productName = WBasicLibrary;
+			productReference = ED66BA9DCADA2EB5A4C603A5AFFD0314 /* WBasicLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AC2BF876866B74251752D2B6D532CD36 /* WVideoRecoder */ = {
+		63E0A7573A2154AAD7D56CAF5227B473 /* WVideoPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0527F7E4646658EF8F0CFF83631FF586 /* Build configuration list for PBXNativeTarget "WVideoRecoder" */;
+			buildConfigurationList = 51A1700B8C591F830555F9A0926C98C2 /* Build configuration list for PBXNativeTarget "WVideoPlayer" */;
 			buildPhases = (
-				E47D1B1FD3449B52F813B5E375A8EDD1 /* Sources */,
-				7E9031143E6B45A03072A54462C4AE8B /* Frameworks */,
-				0CAF7512747183CFDDB3EAC4CE560DD3 /* Headers */,
+				927DE2E86F6FA14FC56E463E9E674411 /* Sources */,
+				8567AF19858BFFAB81685C42533E967B /* Frameworks */,
+				3EEF03034A3F28AB11E30FCE5C4F1F3B /* Headers */,
+				D583073349E4DF86C633B6769402E59D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = WVideoRecoder;
-			productName = WVideoRecoder;
-			productReference = F8C67343D8EB8633ACA3879C30C93155 /* WVideoRecoder.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DEE1886E9AEB0A957564A79D7905C601 /* WVideoPlayer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E69FCB59319394ED7C964EDE133D461 /* Build configuration list for PBXNativeTarget "WVideoPlayer" */;
-			buildPhases = (
-				A3345D2F25FBF77B835AA5C24CD15793 /* Sources */,
-				837C74588D91ECEFA4CDC2F25291B456 /* Frameworks */,
-				ACFB325F111BD7B86B2CAD586C2DD2BD /* Headers */,
-				04F48DEAEC8227A1053560CC3E01558E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				4B4EC190DD84335A0858E95B68FAA1AF /* PBXTargetDependency */,
 			);
 			name = WVideoPlayer;
 			productName = WVideoPlayer;
-			productReference = B4B8EFBBB2ED3A2104E7F66F5DCEB73B /* WVideoPlayer.framework */;
+			productReference = 5C5EF3A9EC26565243788E316C696593 /* WVideoPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80881872090019269BE6AD80F354B1C7 /* WVideoRecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6111EDA5E2C3C47E194A960705B1F2A7 /* Build configuration list for PBXNativeTarget "WVideoRecoder" */;
+			buildPhases = (
+				3E8806B85AF1F9B3C0F7E21380BF0023 /* Sources */,
+				01C968B2E6D0DFA8FA786CC037B49A5E /* Frameworks */,
+				F651CDB6812CB62068005EFF490D66BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7EF241F4F9993D89BEBB63E5DE8F855 /* PBXTargetDependency */,
+				6B2CDA92B9DD51A113C11D4C5217BB9D /* PBXTargetDependency */,
+			);
+			name = WVideoRecoder;
+			productName = WVideoRecoder;
+			productReference = 7DFB0BC989C79BE30ABB00F3FF02649A /* WVideoRecoder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E636C369459C34867EC08D089BA4E119 /* Pods-WVideoRecoder_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F91F9D8D111FB25827E06281268D2D /* Build configuration list for PBXNativeTarget "Pods-WVideoRecoder_Example" */;
+			buildPhases = (
+				67154518DD0E5BF6101969A74F1AB79E /* Sources */,
+				79F1F9143CDE14E2769E32272F7D98EF /* Frameworks */,
+				F3F7136F2F2817BD3E5006F42FF13C49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC436162CB3B30589E89EE2EF6171977 /* PBXTargetDependency */,
+				11D87F2678CC921CDB992A536992AFD6 /* PBXTargetDependency */,
+				91FAD14E685D2BE17B5817192387C6CC /* PBXTargetDependency */,
+			);
+			name = "Pods-WVideoRecoder_Example";
+			productName = "Pods-WVideoRecoder_Example";
+			productReference = 7505413EB34C0CB5EB4E203F5B2DC4F5 /* Pods_WVideoRecoder_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -553,114 +822,198 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3D5B1F5DFBABDEB5188BAD3D3F085827 /* Products */;
+			productRefGroup = 022E491F25953D4F24B5874DE14EB94E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CD1453C6E5F562139947147BED05A45 /* Pods-WVideoRecoder_Example */,
-				DEE1886E9AEB0A957564A79D7905C601 /* WVideoPlayer */,
-				AC2BF876866B74251752D2B6D532CD36 /* WVideoRecoder */,
+				E636C369459C34867EC08D089BA4E119 /* Pods-WVideoRecoder_Example */,
+				359A7617E33F5048AFDC126326E50162 /* WBasicLibrary */,
+				63E0A7573A2154AAD7D56CAF5227B473 /* WVideoPlayer */,
+				80881872090019269BE6AD80F354B1C7 /* WVideoRecoder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04F48DEAEC8227A1053560CC3E01558E /* Resources */ = {
+		D583073349E4DF86C633B6769402E59D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9ECD24192ED28A0B96D1559CE0E2090 /* btn_play_again_icon_160x80.png in Resources */,
-				98F30B5C26C96E98EB75BCB0A20FA2BB /* btn_play_again_icon_160x80@2x.png in Resources */,
-				ABCCBC9119F48CCCF79050F1D0D30385 /* btn_play_again_icon_160x80@3x.png in Resources */,
-				7B4409CA10B36D932D25C0D37F6C3BC2 /* btn_video_play_90x90.png in Resources */,
-				1C6A793C87D611327BFA0C82707AE64D /* btn_video_play_90x90@2x.png in Resources */,
-				993B80B33471468AF03BEFBC6A3661DF /* btn_video_play_90x90@3x.png in Resources */,
-				DDCFC3853120A6D6226ACD5982B21AC7 /* btn_video_stop_90x90.png in Resources */,
-				B2754579AB6C5F2B275A9EB537C35308 /* btn_video_stop_90x90@2x.png in Resources */,
-				C3FC92B6FE6C4A2BEEA9C4692DFDBECD /* btn_video_stop_90x90@3x.png in Resources */,
-				B4FEB0686BBDD8B672737767C1B6DF63 /* left_back_icon_white_60x60.png in Resources */,
-				8B19E0813D124012BFECBDB056FA231F /* left_back_icon_white_60x60@2x.png in Resources */,
-				CB575FB45F128161C9335C2F00B44519 /* left_back_icon_white_60x60@3x.png in Resources */,
-				0A8AD3BDE0ED54622AD51355B0B29A3B /* narrow_btn.png in Resources */,
-				5245FB4236478C27235867A44D094468 /* narrow_btn@2x.png in Resources */,
-				89DBB3C691100BCE96818439F7DB4F10 /* narrow_btn@3x.png in Resources */,
-				767EA3B7B291CADE109E22616C31093C /* video_amplification.png in Resources */,
-				1453175D0D120DEB2E8190DF9E8EB70B /* video_amplification@2x.png in Resources */,
-				95429A74A5ED57590035DA42F89A4887 /* video_amplification@3x.png in Resources */,
-				191B30884ED4A36EBBFEFDD072E54E8C /* 椭圆-1.png in Resources */,
-				A4A0C0736EF2E60FADE8CB875CF4E481 /* 椭圆-1@2x.png in Resources */,
-				D2EE27DC23796C890BFB5F20F59D41AF /* 椭圆-1@3x.png in Resources */,
+				EA0502F6BDC7FC5CF281B85F3F6FCEEF /* btn_play_again_icon_160x80.png in Resources */,
+				0496FF2C2A30FD739296CFD880EED80D /* btn_play_again_icon_160x80@2x.png in Resources */,
+				476E7DB6929D22067DC8E27DFF70320F /* btn_play_again_icon_160x80@3x.png in Resources */,
+				87C8001F9D45E447B4692E45ADFA53B4 /* btn_video_play_90x90.png in Resources */,
+				A51470A532591CDFCB85745FE24AABE8 /* btn_video_play_90x90@2x.png in Resources */,
+				4034FAEA3118C6BB8D0A7BA7A440DE83 /* btn_video_play_90x90@3x.png in Resources */,
+				7A4A45AAB1FDCE34C45DA7FD3C22491C /* btn_video_stop_90x90.png in Resources */,
+				6F659078678DC643FF4DDA0DB9951A2C /* btn_video_stop_90x90@2x.png in Resources */,
+				D4FB1C9152446D8FEE9831991032F751 /* btn_video_stop_90x90@3x.png in Resources */,
+				6CA4990822BBCBDC322CF1421D7E483A /* left_back_icon_white_60x60.png in Resources */,
+				E2839BE10C0A3EE385AC68D8174E86A6 /* left_back_icon_white_60x60@2x.png in Resources */,
+				03007039B754CA8CD814119E630383CA /* left_back_icon_white_60x60@3x.png in Resources */,
+				3A3BC941E32316594C574F63D4EDF2E7 /* narrow_btn.png in Resources */,
+				33E6CC631E59D90A45F0BF8162DEA90C /* narrow_btn@2x.png in Resources */,
+				E2D66684A4CDE26A0317884AF16809F4 /* narrow_btn@3x.png in Resources */,
+				BA14044B5287E56C0E86BCCA9ACCA0ED /* video_amplification.png in Resources */,
+				9AA7431B5EEAFEEE35F8FC55391F67DD /* video_amplification@2x.png in Resources */,
+				5DD06ED640DB0533B230ACF781A43174 /* video_amplification@3x.png in Resources */,
+				ECFE2ED00C051C6DBFA44B979D8CF7A1 /* 椭圆-1.png in Resources */,
+				175ACA7C6DEA88D2D0D4B8C1D5A2F0B5 /* 椭圆-1@2x.png in Resources */,
+				63C6CF9C774FC15A7DF10A0008340BE6 /* 椭圆-1@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D3DE73F1DA1EBC2B0C65BE4C52AFC59 /* Sources */ = {
+		3E8806B85AF1F9B3C0F7E21380BF0023 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56BF45598BAACAF1D98EBC1009AAE86B /* Pods-WVideoRecoder_Example-dummy.m in Sources */,
+				C5B10464D6D1F8358C0386BC8916A6DE /* HVideoRecodeVC.m in Sources */,
+				46869FC6D9F65B428C555FBA03DE7182 /* WPhotoPreviewVCViewController.m in Sources */,
+				D428492FA5DA54CD67CBE338EFC61DC5 /* WPhotoSelect.m in Sources */,
+				EC3154A34618A0149F5F6D8E2F2DC07F /* WRecodeControlView.m in Sources */,
+				52FC2679987E2C7495E67348CFE8054E /* WRecoderVC.m in Sources */,
+				D46F0FC47AE91E17D38E714CB8169050 /* WRecorderProcessService.m in Sources */,
+				DA8203455FBA357CCFC405CD7712AADA /* WRecorderService.m in Sources */,
+				C9184339C29D5A9BC0825149D2F6CF0F /* WRecorderStorageService.m in Sources */,
+				9476D4CFCF4BC925A128C78C42CF7F31 /* WVideoBottomSelectView.m in Sources */,
+				B60C091248A8183C5F5F63757D026851 /* WVideoClickBtn.m in Sources */,
+				E342C27388539399192FE3B7DA45C1AB /* WVideoFilterItem.m in Sources */,
+				B85B9D8BECBE023621FD9B3810F49164 /* WVideoFilterListView.m in Sources */,
+				D0A400449886C9410A6F75AFFD70833E /* WVideoHeaderView.m in Sources */,
+				BD23A6940D31910C1DA5C507F04B9082 /* WVideoPreviewLayerListView.m in Sources */,
+				212C4277F27AF4F6018936D6057EF370 /* WVideoRecoder-dummy.m in Sources */,
+				F7CFA9FF2E6F85BAC8FA92B29110F952 /* WViedoPreviewAndEditVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3345D2F25FBF77B835AA5C24CD15793 /* Sources */ = {
+		67154518DD0E5BF6101969A74F1AB79E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A028B94F4BC9273283ED5BC9B3CB88 /* UIView+WZQView.m in Sources */,
-				00F1E11C66C9BCF8D0A7E7FDE3D7880F /* WVideoManager.m in Sources */,
-				D477120D68ADCB199DDD4B87EB6FFB95 /* WVideoPlayControlView.m in Sources */,
-				A17FEED58C5BD239A3936A72C9E30142 /* WVideoPlayer-dummy.m in Sources */,
-				AFF6EB5292C0FD3377615E0DE13A0404 /* WVideoPlayer.m in Sources */,
-				3C59C087507476CA3A4ED7DA34F7D8A6 /* WVideoPlayItem.m in Sources */,
+				C4CD4637CCC0BB8ABE23FD63C603C8AD /* Pods-WVideoRecoder_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E47D1B1FD3449B52F813B5E375A8EDD1 /* Sources */ = {
+		927DE2E86F6FA14FC56E463E9E674411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B326EDC2BE03CDE53380E7ABB5F058BC /* HVideoRecodeVC.m in Sources */,
-				D1F674421658F21272869196674C50EA /* WPhotoPreviewVCViewController.m in Sources */,
-				0185B097E4171017AE080493C474EA4D /* WPhotoSelect.m in Sources */,
-				53BB97A5574312ED8D0474B61C8DADA9 /* WRecodeControlView.m in Sources */,
-				BEE6B1BB3F8F4EA45717AF08DA0BFAA3 /* WRecoderVC.m in Sources */,
-				C02746045ABC31526D387DDF31C0E2AB /* WRecorderProcessService.m in Sources */,
-				1B935D37AD854BF551A81E41F8E8D9A5 /* WRecorderService.m in Sources */,
-				327C6FA6768F544DCBD17059E61655A2 /* WRecorderStorageService.m in Sources */,
-				9F5331CB36F444EC46787BE1B87EBF4E /* WVideoBottomSelectView.m in Sources */,
-				81BFFAE504F277AC56A3875C2EA42F7A /* WVideoClickBtn.m in Sources */,
-				514DF3DF5276EAAB69FCF981FCDD66CF /* WVideoFilterItem.m in Sources */,
-				AEC7F0B84CD8303933292196319D7408 /* WVideoFilterListView.m in Sources */,
-				314A42746CFF8BB20AECAA057D464000 /* WVideoHeaderView.m in Sources */,
-				3AEAF9E05531FFD1AD64716811DA56F9 /* WVideoPreviewLayerListView.m in Sources */,
-				569BC6322D4E662C241E9AD8A8251641 /* WVideoRecoder-dummy.m in Sources */,
-				E078F9FE7D1F7BD61D987FF67454A9A1 /* WViedoPreviewAndEditVC.m in Sources */,
+				61B4D7666A4B070405ABA61BB9FDE7B1 /* WVideoManager.m in Sources */,
+				EC7D3E0356AF9332E920F8EAB1AE9FC0 /* WVideoPlayControlView.m in Sources */,
+				32743BB2FBCE107226D1330FB1668ABB /* WVideoPlayer-dummy.m in Sources */,
+				EA818C6C6D0A9A152514620732CE8605 /* WVideoPlayer.m in Sources */,
+				186ADE570DC50E1B02660EB769E84512 /* WVideoPlayItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92D3442C6992BD99C51365414713D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B725BAD58A7D745363779CD24BF7C196 /* NSArray+WHander.m in Sources */,
+				773A5901C2569469E0FC0357628825C8 /* NSData+AES256_.m in Sources */,
+				EA818B48A934B05DBA4238E643656BC2 /* NSData+Base64_.m in Sources */,
+				13E1610FBE8BCC8DCE53B8CA794FBBEE /* NSDate+Whandler.m in Sources */,
+				09EC6A529A3215A1C2B2C85AF5D6E1B9 /* NSMutableArray+WHandler.m in Sources */,
+				289AE539FCD4BFF5716AF67384EAF52A /* NSObject+Whandler.m in Sources */,
+				5EE03E8BCD68127A9DEEFC77D3FE64E3 /* NSString+WHandler.m in Sources */,
+				E7725617EBFC32D12087EBD6E9041E94 /* Reachability.m in Sources */,
+				7E286209DCC74F966B63A558F0720ECE /* UIAlertController+WHandler.m in Sources */,
+				3EF217EFCF1568F810DADA0F0B838F40 /* UIColor+Whandler.m in Sources */,
+				F09F7CCC4701C96D137EE1BF8D26628B /* UIImage+WHandler.m in Sources */,
+				C561BCAD7ABAACC0634ECDA48FE77FE5 /* UIImageView+WHandler.m in Sources */,
+				74C535030DBA1214ABF5A0B1893A495C /* UILabel+WHandler.m in Sources */,
+				A6A33415C7CC2CE3CF165E772230AC83 /* UIView+WHandler.m in Sources */,
+				FAFB2D3234D3571A968F765C2D18A9DF /* UIViewController+BasicHandler.m in Sources */,
+				54739D9FF4530F9A4E9D35D9099AD876 /* UIViewController+TableHandler.m in Sources */,
+				95DC6689F6F1FFAE552FE52D68109CC6 /* UIViewController+WebHandler.m in Sources */,
+				BA8873FF5C1C033B9CAA9839FCF867D7 /* WBasicLibrary-dummy.m in Sources */,
+				D8A8AD835078BE1514C66502AE5BCF3C /* WDevice.m in Sources */,
+				B3E2ADE82AC89212EE029ABCD41E9F17 /* WMessageAction.m in Sources */,
+				97D77978DC918D3ED422FECB36315BA7 /* WNodataView.m in Sources */,
+				BB57788E430058B7F3789FC40D72E851 /* WRequestStatueView.m in Sources */,
+				240479F44586515CBDA74A425A31FD6F /* WThreadTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		501CBD0C619E1698B5DCFE4D91C6059A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WVideoRecoder;
-			target = AC2BF876866B74251752D2B6D532CD36 /* WVideoRecoder */;
-			targetProxy = 1C67E866337A418112CB828B49A23F6D /* PBXContainerItemProxy */;
-		};
-		7A050CAC8EB8377B886A8A0D95E432A5 /* PBXTargetDependency */ = {
+		11D87F2678CC921CDB992A536992AFD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WVideoPlayer;
-			target = DEE1886E9AEB0A957564A79D7905C601 /* WVideoPlayer */;
-			targetProxy = EE991ADD0175A3021933DE0200F8AF18 /* PBXContainerItemProxy */;
+			target = 63E0A7573A2154AAD7D56CAF5227B473 /* WVideoPlayer */;
+			targetProxy = 5AF4519C2914F4F5FBF3583B8DC8AAF1 /* PBXContainerItemProxy */;
+		};
+		4B4EC190DD84335A0858E95B68FAA1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WBasicLibrary;
+			target = 359A7617E33F5048AFDC126326E50162 /* WBasicLibrary */;
+			targetProxy = 25FD076FE25C4967FCBD3040F49B4A13 /* PBXContainerItemProxy */;
+		};
+		6B2CDA92B9DD51A113C11D4C5217BB9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WVideoPlayer;
+			target = 63E0A7573A2154AAD7D56CAF5227B473 /* WVideoPlayer */;
+			targetProxy = B435F4AB817AC04EFE48B9C135CDFBB2 /* PBXContainerItemProxy */;
+		};
+		91FAD14E685D2BE17B5817192387C6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WVideoRecoder;
+			target = 80881872090019269BE6AD80F354B1C7 /* WVideoRecoder */;
+			targetProxy = 36D975B74C60C358F09A5255C5CAA4C1 /* PBXContainerItemProxy */;
+		};
+		AC436162CB3B30589E89EE2EF6171977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WBasicLibrary;
+			target = 359A7617E33F5048AFDC126326E50162 /* WBasicLibrary */;
+			targetProxy = DA1DC32EC679F53C2F58A72322B16B5E /* PBXContainerItemProxy */;
+		};
+		B7EF241F4F9993D89BEBB63E5DE8F855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WBasicLibrary;
+			target = 359A7617E33F5048AFDC126326E50162 /* WBasicLibrary */;
+			targetProxy = 7A2BD31EF4D254F10FDF931F4C7A5BE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4630158833E21D05E965351945133EB1 /* Debug */ = {
+		25FD2FF529023BCF5158E7AFF538B728 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11019E59ADEB7DC62072F836FFC17CD4 /* WVideoPlayer.xcconfig */;
+			baseConfigurationReference = D9C9283A2754A441EBF8586B0D9EF9E8 /* WBasicLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBasicLibrary/WBasicLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBasicLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBasicLibrary/WBasicLibrary.modulemap";
+				PRODUCT_MODULE_NAME = WBasicLibrary;
+				PRODUCT_NAME = WBasicLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39911E5F8FCA6683904DA2546282FE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76DBF239B08BB61968A913BE22BE50D /* WVideoPlayer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -683,12 +1036,13 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5013ADD8C9C708EC2AE7C97AED9A0328 /* Release */ = {
+		3B587033BA7994AB5BB0F37936887150 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35FA6379BDF43E70A3488BA6FE7341F5 /* Pods-WVideoRecoder_Example.release.xcconfig */;
 			buildSettings = {
@@ -722,7 +1076,7 @@
 			};
 			name = Release;
 		};
-		71654C182DFF128EC9FB3D4615368127 /* Release */ = {
+		46896295DA4094B1DDC40243825C1F02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E9FAFBE3E4198B9D2BFDC2E90E1C2ED /* WVideoRecoder.xcconfig */;
 			buildSettings = {
@@ -738,7 +1092,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WVideoRecoder/WVideoRecoder-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WVideoRecoder/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WVideoRecoder/WVideoRecoder.modulemap";
 				PRODUCT_MODULE_NAME = WVideoRecoder;
@@ -752,6 +1106,66 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4BC2A4F530E09D6FC3BDCC1F5980E630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76DBF239B08BB61968A913BE22BE50D /* WVideoPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WVideoPlayer/WVideoPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WVideoPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WVideoPlayer/WVideoPlayer.modulemap";
+				PRODUCT_MODULE_NAME = WVideoPlayer;
+				PRODUCT_NAME = WVideoPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79CF36EEC42193857BB5F0D72263E15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9FAFBE3E4198B9D2BFDC2E90E1C2ED /* WVideoRecoder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WVideoRecoder/WVideoRecoder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WVideoRecoder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WVideoRecoder/WVideoRecoder.modulemap";
+				PRODUCT_MODULE_NAME = WVideoRecoder;
+				PRODUCT_NAME = WVideoRecoder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -874,68 +1288,7 @@
 			};
 			name = Release;
 		};
-		C2375DCA19939FCC4D76E986D74A2960 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E9FAFBE3E4198B9D2BFDC2E90E1C2ED /* WVideoRecoder.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WVideoRecoder/WVideoRecoder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WVideoRecoder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WVideoRecoder/WVideoRecoder.modulemap";
-				PRODUCT_MODULE_NAME = WVideoRecoder;
-				PRODUCT_NAME = WVideoRecoder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CFF3E74C50F6CB4BD5A33E614D9BCD0F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11019E59ADEB7DC62072F836FFC17CD4 /* WVideoPlayer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WVideoPlayer/WVideoPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WVideoPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WVideoPlayer/WVideoPlayer.modulemap";
-				PRODUCT_MODULE_NAME = WVideoPlayer;
-				PRODUCT_NAME = WVideoPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F66A4C2398B1F4BD6E4756B6D8E980CE /* Debug */ = {
+		D3ECAFF2428C9176EBB4898A2C4A2B27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8177A56CCBA6429C883D0FBD80B8C92E /* Pods-WVideoRecoder_Example.debug.xcconfig */;
 			buildSettings = {
@@ -968,23 +1321,45 @@
 			};
 			name = Debug;
 		};
+		FDDC8AF7C76DDED6C4C5334AA36F4416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C9283A2754A441EBF8586B0D9EF9E8 /* WBasicLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBasicLibrary/WBasicLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBasicLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBasicLibrary/WBasicLibrary.modulemap";
+				PRODUCT_MODULE_NAME = WBasicLibrary;
+				PRODUCT_NAME = WBasicLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0527F7E4646658EF8F0CFF83631FF586 /* Build configuration list for PBXNativeTarget "WVideoRecoder" */ = {
+		11F91F9D8D111FB25827E06281268D2D /* Build configuration list for PBXNativeTarget "Pods-WVideoRecoder_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2375DCA19939FCC4D76E986D74A2960 /* Debug */,
-				71654C182DFF128EC9FB3D4615368127 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		10DA7B78A66CCF37433A656AFFE4830F /* Build configuration list for PBXNativeTarget "Pods-WVideoRecoder_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F66A4C2398B1F4BD6E4756B6D8E980CE /* Debug */,
-				5013ADD8C9C708EC2AE7C97AED9A0328 /* Release */,
+				D3ECAFF2428C9176EBB4898A2C4A2B27 /* Debug */,
+				3B587033BA7994AB5BB0F37936887150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -998,11 +1373,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E69FCB59319394ED7C964EDE133D461 /* Build configuration list for PBXNativeTarget "WVideoPlayer" */ = {
+		51A1700B8C591F830555F9A0926C98C2 /* Build configuration list for PBXNativeTarget "WVideoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4630158833E21D05E965351945133EB1 /* Debug */,
-				CFF3E74C50F6CB4BD5A33E614D9BCD0F /* Release */,
+				4BC2A4F530E09D6FC3BDCC1F5980E630 /* Debug */,
+				39911E5F8FCA6683904DA2546282FE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53A67903FA9A27736E0726EFE52F8346 /* Build configuration list for PBXNativeTarget "WBasicLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FD2FF529023BCF5158E7AFF538B728 /* Debug */,
+				FDDC8AF7C76DDED6C4C5334AA36F4416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6111EDA5E2C3C47E194A960705B1F2A7 /* Build configuration list for PBXNativeTarget "WVideoRecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CF36EEC42193857BB5F0D72263E15D /* Debug */,
+				46896295DA4094B1DDC40243825C1F02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -294,11 +294,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WVideoRecoder_Example/Pods-WVideoRecoder_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WBasicLibrary/WBasicLibrary.framework",
 				"${BUILT_PRODUCTS_DIR}/WVideoPlayer/WVideoPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/WVideoRecoder/WVideoRecoder.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WBasicLibrary.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WVideoPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WVideoRecoder.framework",
 			);
