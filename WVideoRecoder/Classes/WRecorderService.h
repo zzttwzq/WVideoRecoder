@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 #import <Photos/Photos.h>
-#import "WRecorderDefiniations.h"
+#import "WRecoderHeader.h"
 
 @protocol WRecorderDelegate <NSObject>
 

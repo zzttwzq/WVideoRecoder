@@ -7,6 +7,7 @@
 //
 
 #import "WVideoFilterListView.h"
+#import "WVideoHeader.h"
 
 @interface WVideoFilterListView ()
 
@@ -31,7 +32,7 @@
         self.titleArray = array;
 
 
-        self.frame = CGRectMake(0, ScreenWidth-BottomHeight-80, ScreenWidth, 80);
+        self.frame = CGRectMake(0, ScreenWidth-Height_Bottom-80, ScreenWidth, 80);
         self.filterItemArray = [NSMutableArray array];
 
         float totalWith = array.count*80;

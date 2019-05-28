@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WRecoderHeader.h"
 
 @interface WPhotoPreviewVCViewController : UIViewController
 @property (nonatomic,copy) StringBlock callBack;

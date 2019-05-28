@@ -7,6 +7,7 @@
 //
 
 #import "WVideoHeaderView.h"
+#import "WVideoHeader.h"
 
 @interface WVideoHeaderView ()
 
@@ -34,7 +35,7 @@
 //        self.filterClick = YES;
 
         float height = 0;
-        if (isIPHoneX) {
+        if (IS_IPHONE_X) {
             height = 20;
             UIView *view = VIEW_WITH_RECT(0, -20, ScreenWidth, 20);
             view.backgroundColor = WINDOW_COLOR;

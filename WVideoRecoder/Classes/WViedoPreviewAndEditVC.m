@@ -6,12 +6,10 @@
 //  Copyright © 2018年 吴志强. All rights reserved.
 //
 #import "WViedoPreviewAndEditVC.h"
-#import "WVideoPlayer.h"
+#import <WVideoPlayer/WVideoPlayer.h>
 #import "WVideoPreviewLayerListView.h"
 #import "WVideoFilterListView.h"
-//#import "HMOSSUploadHandler.h"
 #import "WRecorderService.h"
-#import <wvideo>
 
 @interface WViedoPreviewAndEditVC ()
 

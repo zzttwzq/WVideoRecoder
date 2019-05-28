@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WRecorderDefiniations.h"
+#import "WRecoderHeader.h"
 
 typedef NS_ENUM(NSInteger,WRecordMode) {
     WRecordMode_PhotoLibrary,

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WRecorderDefiniations.h"
+#import "WRecoderHeader.h"
 #import "WVideoHeaderView.h"
 #import "WVideoClickBtn.h"
 #import "WVideoBottomSelectView.h"

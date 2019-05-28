@@ -7,7 +7,7 @@
 
 #import "WVideoPlayControlView.h"
 #import "WVideoManager.h"
-#import <WBasicLibrary/WBasicHeader.h>
+#import "WVideoHeader.h"
 
 @class WVideoPlayer;
 @protocol  WPlayerProtocol <NSObject>

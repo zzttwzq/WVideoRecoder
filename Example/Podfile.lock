@@ -1,5 +1,5 @@
 PODS:
-  - WBasicLibrary (0.5.8)
+  - WBasicLibrary (0.5.9)
   - WVideoPlayer (0.2.4):
     - WBasicLibrary
   - WVideoRecoder (0.1.0):
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WBasicLibrary: 1d532bf36026539525564ad26856b7efdaa14c01
+  WBasicLibrary: 5c2e2afaa8a8d20b91a0c3038cc5f149d8020fa9
   WVideoPlayer: edb30310295645ba6cbbb2ffa9b8e2acfb949686
   WVideoRecoder: 92c01e719d8ecac6e1e038a91d734e16a937d35e
 

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WRecorderDefiniations.h"
+#import "WRecoderHeader.h"
 
 @interface WVideoPreviewLayerListView : UIView
 

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WRecoderHeader.h"
 
 typedef NS_ENUM(NSInteger,WVideoHeaderViewItem) {
     WVideoHeaderViewItem_Back,

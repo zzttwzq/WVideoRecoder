@@ -15,6 +15,6 @@
 /**
  回调
  */
-@property (nonatomic,copy) dictBlock infoCallBack;
+@property (nonatomic,copy) Dict_Block infoCallBack;
 
 @end

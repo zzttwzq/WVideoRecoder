@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WRecorderDefiniations.h"
+#import "WRecoderHeader.h"
 
 typedef void(^selectBlock)(NSString *selectItem,NSInteger index);
 @interface WVideoBottomSelectView : UIView

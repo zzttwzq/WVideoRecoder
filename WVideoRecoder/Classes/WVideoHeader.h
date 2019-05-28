@@ -1,12 +1,12 @@
 //
-//  WRecoderHeader.h
+//  WVideoHeader.h
 //  Pods
 //
-//  Created by 吴志强 on 2018/8/13.
+//  Created by 吴志强 on 2019/2/21.
 //
 
-#ifndef WRecoderHeader_h
-#define WRecoderHeader_h
+#ifndef WVideoHeader_h
+#define WVideoHeader_h
 
 typedef NS_ENUM(NSInteger,WSelectPhotoSourceType) {
     WSelectPhotoSourceType_Photo,  //照片
@@ -15,10 +15,10 @@ typedef NS_ENUM(NSInteger,WSelectPhotoSourceType) {
 };
 
 #import <WBasicLibrary/WBasicLibrary-umbrella.h>
-    //#import <WVideoPlayer/WVideoPlayer.h>
+//#import <WVideoPlayer/WVideoPlayer.h>
 #import "WVideoRecoderTheme.h"
 #import "WVideoPreviewLayerListView.h"
 #import "WRecorderService.h"
 #import "WRecoderVC.h"
 
-#endif /* WRecoderHeader_h */
+#endif /* WVideoHeader_h */
